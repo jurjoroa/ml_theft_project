@@ -6,21 +6,43 @@
 </div>
 
 <br/>
+<br/>
 
 <div align="center">
-> **MSc. Data Science for Public Policy** <br/> 
+<p><b> MSc. Data Science for Public Policy </b> <br/> </p>
 First Semester <br/>
 Machine Learning <br/>
-Professor: PhD Slava Jankin <br/>
-Teaching Assistant: Paulina García Corral<br/>
+<b>Professor</b>: PhD Slava Jankin <br/>
+<b>Teaching Assistant</b>: MSc Paulina García Corral<br/>
 </div>
 
 <br/>
 
+
 # Machine Learning Project
 
-<img src="https://user-images.githubusercontent.com/37766175/121809054-446bac80-cc96-11eb-9139-08c6d9ad2d88.png" />
+<a href="https://www.infobae.com/america/mexico/2020/12/23/fuerzas-federales-aseguraron-toma-de-huachicol-oculta-en-tunel-de-200-metros-en-el-edomex/">
+<img width="350em" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YYDPAE4SMFFTJOHSBPDKK2UUAQ.jpg"/>
+</a>
 
+<a href="https://www.elfinanciero.com.mx/universidades/investigadores-mexicanos-evitarian-el-robo-de-hidrocarburos/">
+<img width="311em" src="https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/IQR3FITOOHFWA3X4UZ7VCXEIWA.jpg"/>
+</a>
+
+<a href="https://www.elfinanciero.com.mx/universidades/investigadores-mexicanos-evitarian-el-robo-de-hidrocarburos/">
+<img width="311em" height="233em" src="https://www.elsoldemexico.com.mx/finanzas/cpnv8p-militares-operativo-ductos-huachicol-combustible-perforacion-30.jpg/ALTERNATES/LANDSCAPE_400/Militares-Operativo-Ductos-Huachicol-Combustible-Perforacion%20(30).jpg"/>
+</a>
+
+##
+
+## Description
+
+
+Pemex is a Mexican state-owned company that produces, transports, refines and markets oil and natural gas. It has pipelines throughout the 32 states in Mexico for the distribution of oil. 
+Clandestine intakes detected in Pemex pipelines have increased by 2,197% from 2008 to 2015. These attacks have been reported in 24 federal entities of the country and the database is available <a href="https://cartocritica.org.mx/2019/tomas-clandestinas-en-pemex-2008-2015/">here</a>. The database contains the affected pipelines, their exact location, the geographic location of the clandestine pipeline, the date of the attack, the state/city where the attack took place, the material used for the construction of the pipeline, the type of repair and other data. The initial database contains 20,894 rows and 36 variables, but it still needs to be tidied up for use.
+The purpose of this project is to analyze this kind of crime and to identify the most susceptible places and pipelines to be attacked. For which, we will use a machine learning model, that will be defined later.
+
+##
 
 
 
