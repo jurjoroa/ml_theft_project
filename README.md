@@ -21,17 +21,19 @@ Machine Learning <br/>
 
 # Machine Learning Project
 
+<div align="center">
 <a href="https://www.infobae.com/america/mexico/2020/12/23/fuerzas-federales-aseguraron-toma-de-huachicol-oculta-en-tunel-de-200-metros-en-el-edomex/">
-<img width="350em" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YYDPAE4SMFFTJOHSBPDKK2UUAQ.jpg"/>
+<img width="170em" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YYDPAE4SMFFTJOHSBPDKK2UUAQ.jpg"/>
 </a>
 
 <a href="https://www.elfinanciero.com.mx/universidades/investigadores-mexicanos-evitarian-el-robo-de-hidrocarburos/">
-<img width="311em" src="https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/IQR3FITOOHFWA3X4UZ7VCXEIWA.jpg"/>
+<img width="150em" src="https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/IQR3FITOOHFWA3X4UZ7VCXEIWA.jpg"/>
 </a>
 
 <a href="https://www.elfinanciero.com.mx/universidades/investigadores-mexicanos-evitarian-el-robo-de-hidrocarburos/">
-<img width="311em" height="233em" src="https://www.elsoldemexico.com.mx/finanzas/cpnv8p-militares-operativo-ductos-huachicol-combustible-perforacion-30.jpg/ALTERNATES/LANDSCAPE_400/Militares-Operativo-Ductos-Huachicol-Combustible-Perforacion%20(30).jpg"/>
+<img width="150em" height="112em" src="https://www.elsoldemexico.com.mx/finanzas/cpnv8p-militares-operativo-ductos-huachicol-combustible-perforacion-30.jpg/ALTERNATES/LANDSCAPE_400/Militares-Operativo-Ductos-Huachicol-Combustible-Perforacion%20(30).jpg"/>
 </a>
+</div>
 
 ##
 
