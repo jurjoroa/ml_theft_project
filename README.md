@@ -12,8 +12,8 @@
 <p><b> MSc. Data Science for Public Policy </b> <br/> </p>
 First Semester <br/>
 Machine Learning <br/>
-<b>Professor</b>: PhD Slava Jankin <br/>
-<b>Teaching Assistant</b>: MSc Paulina García Corral<br/>
+<b>Professor</b>: Slava Jankin, PhD <br/>
+<b>Teaching Assistant</b>: Paulina García Corral, MSc<br/>
 </div>
 
 <br/>
