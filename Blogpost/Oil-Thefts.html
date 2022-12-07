@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { color: #00769e; background-color: #f1f3f5; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #00769e; } /* Normal */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #657422; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #00769e; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #00769e; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #00769e; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+<style>
+  div.csl-bib-body { }
+  div.csl-entry {
+    clear: both;
+    }
+  .hanging div.csl-entry {
+    margin-left:2em;
+    text-indent:-2em;
+  }
+  div.csl-left-margin {
+    min-width:2em;
+    float:left;
+  }
+  div.csl-right-inline {
+    margin-left:2em;
+    padding-left:1em;
+  }
+  div.csl-indent {
+    margin-left: 2em;
+  }
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Clandestine gasoline thefts in Pemex pipelines</title>
+
+  <meta property="description" itemprop="description" content="A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables."/>
+
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-12-07"/>
+  <meta name="article:author" content="Jorge Roa"/>
+  <meta name="article:author" content="Augusto César de Carvalho Fonsêca"/>
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Clandestine gasoline thefts in Pemex pipelines"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables."/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Clandestine gasoline thefts in Pemex pipelines"/>
+  <meta property="twitter:description" content="A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=What we know so far about oil theft in mexico: Chiaroscuros of a persistent crime;citation_volume=66;citation_author=Jacqueline Peschard Mariscal;citation_author=Marı́a Grisel Salazar Rebolledo;citation_author=Octavio Augusto Olea Gómez"/>
+  <meta name="citation_reference" content="citation_title=Theft of oil from pipelines: An examination of its crime commission in mexico using crime script analysis;citation_publisher=Taylor &amp; Francis;citation_volume=22;citation_author=Arantza Alonso Berbotto;citation_author=Spencer Chainey"/>
+  <meta name="citation_reference" content="citation_title=Poverty measurement;citation_publisher=CONEVAL;citation_author=National Council Evaluation of Social Development Policy"/>
+  <meta name="citation_reference" content="citation_title=What we know so far about oil theft in mexico: Chiaroscuros of a persistent crime;citation_volume=66;citation_author=Jacqueline Peschard Mariscal;citation_author=Marı́a Grisel Salazar Rebolledo;citation_author=Octavio Augusto Olea Gómez"/>
+  <meta name="citation_reference" content="citation_title=Theft of oil from pipelines: An examination of its crime commission in mexico using crime script analysis;citation_publisher=Taylor &amp; Francis;citation_volume=22;citation_author=Arantza Alonso Berbotto;citation_author=Spencer Chainey"/>
+  <meta name="citation_reference" content="citation_title=An introduction to statistical learning;citation_publisher=Springer New York, NY;citation_author=Witten James"/>
+  <meta name="citation_reference" content="citation_title=Predicting the probability of cargo theft for individual cases in railway transport;citation_publisher=Strojarski fakultet u Slavonskom Brodu; Fakultet elektrotehnike, računarstva …;citation_volume=27;citation_author=Augustyn Lorenc;citation_author=Małgorzata Kuźnar;citation_author=Tone Lerher;citation_author=Maciej Szkoda"/>
+  <meta name="citation_reference" content="citation_title=Medición de la pobreza"/>
+  <meta name="citation_reference" content="citation_title=¿El robo de gasolina es en realidad un problema? El caso puebla: Huachicoleo aumentó en más de 3,000% de 2010 a 2018"/>
+  <meta name="citation_reference" content="citation_title=Tomas clandestinas en pemex 2008-2015"/>
+  <meta name="citation_reference" content="citation_title=Predicting the probability of cargo theft for individual cases in railway transport;citation_publisher=Strojarski fakultet u Slavonskom Brodu; Fakultet elektrotehnike, računarstva …;citation_volume=27;citation_author=Augustyn Lorenc;citation_author=Małgorzata Kuźnar;citation_author=Tone Lerher;citation_author=Maciej Szkoda"/>
+  <meta name="citation_reference" content="citation_title=Machine learning of spatial data;citation_volume=10;citation_doi=10.3390/ijgi10090600;citation_issn=2220-9964;citation_author=Behnam Nikparvar;citation_author=Jean-Claude Thill"/>
+  <meta name="citation_reference" content="citation_title=Comparison of four machine learning algorithms for spatial data analysis;citation_author=IDIAP IDIAP UNIL"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","subtitle","description","author","date","categories","creative_commons","repository_url","output","bibliography","editor_options"]}},"value":[{"type":"character","attributes":{},"value":["Clandestine gasoline thefts in Pemex pipelines"]},{"type":"character","attributes":{},"value":["Theft prediction model in Mexican municipalities based on machine learning methods"]},{"type":"character","attributes":{},"value":["A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Jorge Roa"]},{"type":"character","attributes":{},"value":["https://github.com/jurjoroa"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Augusto César de Carvalho Fonsêca"]},{"type":"character","attributes":{},"value":["https://github.com/Augustofonseca25"]}]}]},{"type":"character","attributes":{},"value":["2022-12-07"]},{"type":"character","attributes":{},"value":["Random Forest Classification model"]},{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["https://github.com/jurjoroa/pmx_gasoline_theft_prediction"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["bibliography.bib"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["markdown"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["wrap"]}},"value":[{"type":"integer","attributes":{},"value":[72]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["bibliography.bib","figures/Confusion_matrix_DT.png","figures/Confusion_matrix_LR.png","figures/Confusion_matrix_RF.png","figures/Database balancing.png","figures/Database sample.png","figures/Example 1.png","figures/Example 2.png","figures/Example 3.png","figures/flow-chart-DT.png","figures/flow-chart-final.png","figures/flow_chart_f (1).png","figures/headline.png","figures/hertie_logo.png","figures/Mexico pipelines final.png","figures/Mexico.png","figures/Pipeline specific.png","figures/results_chart_2019.PNG","figures/results_chart_mean.PNG","figures/results_f.png","figures/RF_Gini_importance.png","figures/RF_Gini_importance_before.png","figures/Sample_balance.png","figures/Social Variables.png","figures/Spatial Variables.png","figures/Table 5 - Results.png","Oil-Thefts_files/anchor-4.2.2/anchor.min.js","Oil-Thefts_files/bowser-1.9.3/bowser.min.js","Oil-Thefts_files/distill-2.2.21/template.v2.js","Oil-Thefts_files/header-attrs-2.16/header-attrs.js","Oil-Thefts_files/header-attrs-2.17/header-attrs.js","Oil-Thefts_files/jquery-3.6.0/jquery-3.6.0.js","Oil-Thefts_files/jquery-3.6.0/jquery-3.6.0.min.js","Oil-Thefts_files/jquery-3.6.0/jquery-3.6.0.min.map","Oil-Thefts_files/popper-2.6.0/popper.min.js","Oil-Thefts_files/tippy-6.2.7/tippy-bundle.umd.min.js","Oil-Thefts_files/tippy-6.2.7/tippy-light-border.css","Oil-Thefts_files/tippy-6.2.7/tippy.css","Oil-Thefts_files/tippy-6.2.7/tippy.umd.min.js","Oil-Thefts_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+    font-size: 100%;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
+        }).join("\n");
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="Oil-Thefts_files/header-attrs-2.16/header-attrs.js"></script>
+  <script src="Oil-Thefts_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="Oil-Thefts_files/popper-2.6.0/popper.min.js"></script>
+  <link href="Oil-Thefts_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="Oil-Thefts_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="Oil-Thefts_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="Oil-Thefts_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="Oil-Thefts_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="Oil-Thefts_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="Oil-Thefts_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Clandestine gasoline thefts in Pemex pipelines","description":"A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables.","authors":[{"author":"Jorge Roa","authorURL":"https://github.com/jurjoroa","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Augusto César de Carvalho Fonsêca","authorURL":"https://github.com/Augustofonseca25","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-12-07T00:00:00.000+01:00","citationText":"Roa & Fonsêca, 2022"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Clandestine gasoline thefts in Pemex pipelines</h1>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt-tag">Random Forest Classification model</div>
+</div>
+<!--/radix_placeholder_categories-->
+<p>A machine learning approach to classify Mexican municipalities as susceptible to this kind of theft, based on social and spatial variables.</p>
+</div>
+
+<div class="d-byline">
+  Jorge Roa <a href="https://github.com/jurjoroa" class="uri">https://github.com/jurjoroa</a> 
+  
+,   Augusto César de Carvalho Fonsêca <a href="https://github.com/Augustofonseca25" class="uri">https://github.com/Augustofonseca25</a> 
+  
+<br/>2022-12-07
+</div>
+
+<div class="d-article">
+<style>
+body {
+text-align: justify}
+</style>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figures/hertie_logo.png" width="30%" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="figures/headline.png" alt="Picture 1: SAòL LîPEZ/CUARTOSCURO.COM shorturl.at/dxEIM, Picture 2: shorturl.at/jpsXZ, Picture 3: Archivo Roberto Hernández - shorturl.at/fhsK2" width="100%" />
+<p class="caption">
+Figure 1: Picture 1: SAòL LîPEZ/CUARTOSCURO.COM shorturl.at/dxEIM, Picture 2: shorturl.at/jpsXZ, Picture 3: Archivo Roberto Hernández - shorturl.at/fhsK2
+</p>
+</div>
+</div>
+<h2 id="abstract">1. Abstract</h2>
+<p>Violence and criminal activities have risen in Mexico in the past 20 years. One problem that has been increasing is fuel theft committed by criminal groups. This is a serious problem because this activity could increase violence among criminal groups to have control over different pipelines. The main problem of clandestine gasoline theft is predicting which areas are more likely to have gasoline theft by criminal groups. With this problem, this research aims to predict which municipalities are more susceptible to experiencing gasoline theft. In this sense, our contribution is first to understand which features influence pipeline thefts in Mexico; second, to use a machine learning approach to classify which municipalities are more susceptible to be subject to gasoline theft by criminal groups; third, to promote quantitative research on the phenomenon of gasoline theft in Mexico. The project analyzed 839 Municipalities that have pipelines and classified them as “susceptible” or not. We implemented a Logistic Regression model, a Decision Tree Classifier and a Random Forest Classifier (RF). According to the results, the RF was the best with 82.14% in accuracy; 82.35% in both precision, recall, and F1 scores, and 64.28% in MCC Score.</p>
+<h2 id="introduction">2. Introduction</h2>
+<p>Violence and criminal activities have risen in Mexico in the last two decades. The criminal activities that organized crime commits vary in multiple ways. These activities include selling and exporting illicit drugs; rents from extortion, kidnapping, and theft; money laundering, and cyber crimes, among other crimes. Moreover, recently, drug trafficking is no longer the first source of income for criminal groups <span class="citation" data-cites="herrera2022diversifying">(<a href="#ref-herrera2022diversifying" role="doc-biblioref">Herrera and Martinez-Alvarez 2022</a>)</span>. In this sense, for criminal groups, fuel theft has been a trend for at least ten years. Because of these attractive fuel theft profits, different criminal groups have arisen in Mexico to exploit this illegal activity.</p>
+<p>Pemex (Petroleos Mexicanos in Spanish) is a Mexican state-owned company that produces, transports, refines and markets oil, and natural gas. It has pipelines throughout the 32 states in Mexico for the distribution of oil and other products (Figure <a href="#fig:Mexicopipelines">2</a>).</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Mexicopipelines"></span>
+<img src="figures/Mexico%20pipelines%20final.png" alt="Mexico pipelines." width="80%" />
+<p class="caption">
+Figure 2: Mexico pipelines.
+</p>
+</div>
+</div>
+<p>Clandestine intakes detected in Pemex pipelines have increased by 2,197% from 2008 to 2015. These attacks have been reported in 24 federal entities of the country. The database<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> contains the affected pipelines, their exact location, the geographic location of the clandestine pipeline, the date of the attack, the state/city where the attack took place, the material used for the construction of the pipeline, the type of repair, and other data.</p>
+<aside>
+Thefts database.
+</aside>
+<h3 id="how-the-criminal-groups-steal-gasoline">2.1. How the criminal groups steal gasoline</h3>
+<p>Criminal groups identify areas where gasoline pipelines are more vulnerable and, hence, easier to make a hole or put a provisional valve to steal gasoline; once they do this, they will try to maximize their time extracting the gasoline from the valves and putting it into big tanks <span class="citation" data-cites="alonso2021theft">(<a href="#ref-alonso2021theft" role="doc-biblioref">Alonso Berbotto and Chainey 2021</a>)</span>.</p>
+<p>Other versions argue that gasoline theft happens because of the corruption inside PEMEX. For example, according to the Mexican government, the critical area of the gasoline theft pipeline indeed occurs in Pemex Logística. This area of the company controls the operation and pressure of the pipelines and is responsible for detecting the illegal extraction of gasoline and other products with different systems. For example, a drop in the pressure of the flow of oil products can be a sign of possible theft. If that happens, the internal protocols indicate that the valves must be closed, but it`s not always the case. However, this is only part of the story because although many operators within PEMEX operate under a framework of corruption and impunity, others collaborate or cooperate because criminal groups threaten them, so not following their orders implies significant consequences such as loss of life<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>Fuel theft is traded and sold on the black market for half its price, generating millions of Mexican pesos in profits for criminal groups. As a result, this problem has risen quickly, affecting the national heritage and Pemex <span class="citation" data-cites="peschard2021we">(<a href="#ref-peschard2021we" role="doc-biblioref">Peschard Mariscal, Salazar Rebolledo, and Olea Gómez 2021</a>)</span>.</p>
+<h3 id="why-its-important-to-research-gasoline-theft">2.2. Why it’s important to research gasoline theft</h3>
+<p>The phenomenon of violence in Mexico is interesting to research, considering how the government tries to solve the problem by using, for example, the military for security tasks that civil institutions should be doing. In this case, research on clandestine gasoline theft is important from two perspectives: academia and public policy.</p>
+<p>In academia, research on violence issues in Mexico is a relevant field across security studies. Moreover, multiple research questions have been developed to understand the violent Mexican context. However, in the last few years, there has been an increase in new security issues that were never researched before in the quantitative area. One trend that falls into this fact is gasoline theft and clandestine pipeline intakes.</p>
+<p>In public policy, this problem has generated a spiral of violence in Mexico due to criminal groups’ control of gasoline theft. In recent years, the Mexican government has tried to control the problem by adding more security forces along the pipelines and even choosing to transport gasoline by tankers to prevent its theft. Of course, these solutions are temporary because they are not solving the underlying problem of how to stop gasoline theft in the long run. In this way, it is relevant to approach this problem using data and machine learning techniques, as it will be much easier to identify common patterns and problems to design public security policy strategies based on scientific evidence.</p>
+<p>On one hand, some literature tackles this problem mainly from a theoretical perspective. Still, the lack of data is a problem for implementing econometrics, spatial analysis, or another quantitative approach that can give us a deep analysis of the problem. Hence, this project is attractive: there is data that has never been implemented from a modern quantitative perspective, specifically, from a machine learning specification.</p>
+<p>On the other hand, this project can give a deep image for understanding which characteristics of clandestine gasoline theft are the most important ones that can explain the possible interaction mechanisms behind this problem. The findings of this research are fundamental also to making public policy recommendations about the mechanism behind this theft and how we can address it. In this sense, this project intends to have two significant quantitative and public policy areas.</p>
+<p>From a quantitative perspective, we expected to enrich the discussion in the literature about the social characteristics that most influence and make the theft of gasoline accessible in Mexico in a violent context. Furthermore, we are researching a topic using machine learning methods, a modern approach that can give another quantitative perspective on a serious problem that needs original research.</p>
+<h3 id="what-can-be-proposed">2.3. What can be proposed?</h3>
+<p>From a public policy perspective, we have different goals. For example, Pemex is a Mexican state-owned company that produces, transports, refines and markets oil and natural gas. It has pipelines throughout Mexico for oil, hydrocarbon, and gas distribution. Also, it’s one of the few remaining state-own companies. Fuel theft and clandestine fuel intakes detected in Pemex pipelines have increased by 2,197% from 2008 to 2015, as illustrated in Figure <a href="#fig:Pipelinespecific">3</a>. In other words, that represents an important part of the public budget that the Mexican state is losing.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Pipelinespecific"></span>
+<img src="figures/Pipeline%20specific.png" alt="Theft's location" width="80%" />
+<p class="caption">
+Figure 3: Theft’s location
+</p>
+</div>
+</div>
+<p>With our results and insights, we could develop a short, medium, and long-term policy to help prevent vulnerable municipality pipelines from being attacked by criminal groups. This is one of the main problems that Pemex needs to resolve, and this type of analysis could help to reach that goal in the long run with the help and collaboration of the Mexican authorities.</p>
+<p>The main factors of this research comprise a spatial factor and a classification factor. The idea is to capture the most critical factors that help us explain which parts or problems related to fuel theft have a greater weight when analyzing the information. However, since it is a multifactorial problem, it is well known that reducing the complexity of fuel theft and the multiple actors that are involved in a particular model do not reliably explain what could be happening. However, as a starting point, many areas of opportunity can open other lines of research.</p>
+<h2 id="related-work">3. Related work</h2>
+<p>The literature is quite extensive regarding spatial analysis, crime, and security patterns in a given territory. Similarly, spatial analysis and machine learning have become relevant in recent years. Regarding our approach, no literature directly resembles the relationship between territory and gasoline theft. However, similar techniques provide a reasonably solid idea that it can be implemented in the area. For example, authors Lorenc, KUŹNAR, Lerher, and Szkoda predicted the probability of cargo theft for individual cases in railway transport. They used neural networks (ANN) and their results and metrics were above 90% <span class="citation" data-cites="lorenc2020predicting">(<a href="#ref-lorenc2020predicting" role="doc-biblioref">Lorenc et al. 2020</a>)</span>. Although the problem is not the same, the mode of operation is similar, since the railways have the same spatial component throughout the territory.</p>
+<p>In the same way, Behnam Nikparvard and Jean-Claude Thill establish the importance of spatial variables when trying to implement machine learning models in different approaches from social sciences and other research fields. According to the authors, the properties of the spatial data are not comprehensively approached by the learning algorithm; Moreover, they argue that the spatial data properties are the most promising prospects for the future of spatial machine learning in the research field <span class="citation" data-cites="ijgi10090600">(<a href="#ref-ijgi10090600" role="doc-biblioref">Nikparvar and Thill 2021</a>)</span>. Finally, Nicolas Gilardi and Samy Bengio analyze multiple spatial classification models to determine in which circumstances the spatial approach becomes optimal with classification models and under specific parameters <span class="citation" data-cites="unilcomparison">(<a href="#ref-unilcomparison" role="doc-biblioref">UNIL, n.d.</a>)</span>.</p>
+<h2 id="proposed-method">4. Proposed method</h2>
+<p>The nature of our research has two components: a spatial component and a classification component. In the spatial component, we can analyze the interaction of the variables and how the territory’s configuration can influence gasoline theft. On the other hand, we have the classification component, which is one of the most used to determine predictions based on multiple characteristics <span class="citation" data-cites="james2021introduction">(<a href="#ref-james2021introduction" role="doc-biblioref">James 2021</a>)</span>. In this sense, we will explore both options to determine which aspect can predict more accurately and help us better understand how certain variables affect clandestine gasoline theft in Mexico.</p>
+<p>With the literature review and the nature of our data, three models were implemented: Logistic Regression, Decision Tree, and Random Forest. Although each one has advantages in its use, they are classification models that will help us address the municipalities where gasoline theft is most likely to occur.</p>
+<h4 id="logistic-regression">4.1. Logistic Regression</h4>
+<p>The Logistic Regression as Classification will be our baseline for multiple reasons. Since we want to predict which municipal gasoline pipelines are more likely to be stolen (as a binary response), logistic regression is a great tool to predict such a phenomenon. Similarly, this model helps us to understand how the independent variables influence the municipalities with gasoline pipelines as a first approximation. Finally, multiple authors have obtained exciting results using classification models (specifically logistic regression) in researching security issues that are very similar to our research question, so it is ideal for strengthening our methodology by implementing what has already been done in Academia.</p>
+<p>Given that we are classifying municipalities with pipelines, we can classify them into two classes: municipalities that had theft of their gasoline in their lines and municipalities that did not experience this phenomenon, as illustrated in Figure <a href="#fig:flow-chart-final">4</a>. Finally, the advantages of using logistic regression are that its interpretation is simple, requires less training time, and can perform a good understanding of results without structured complexity. However, these same reasons are why it should be taken as a first approximation or baseline for more complex models.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:flow-chart-final"></span>
+<img src="figures/flow_chart_f%20(1).png" alt="Final flow chart for the Logistic Regression Model" width="50%" />
+<p class="caption">
+Figure 4: Final flow chart for the Logistic Regression Model
+</p>
+</div>
+</div>
+<h4 id="decision-tree-and-random-forest">4.2. Decision Tree and Random Forest</h4>
+<p>The advantages of a decision tree and a Random Forest can be varied. In our context, spatial diversification and the variables that influence a specific municipality to suffer a robbery can also be represented as nodes and sheets to reach different conclusions. In this sense, the internal nodes, or our data partition, can be taken as evidence, and the leaves of said nodes are considered categories. We have variables like homicide rate, number of vehicles, and gasoline prices, among others that are categorical and our outcome (theft or not) is also categorical. Using this specific model to classify municipalities susceptible to fuel theft is an opportunity since it can even be used as an alternative to statistical methods to find results. Within the literature, a classification model based on decision trees is a step even to determine the consistency of our modeling in different configurations.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:flow-chart-DT"></span>
+<img src="figures/flow-chart-DT.png" alt="Flow chart for Decision Tree Model" width="60%" />
+<p class="caption">
+Figure 5: Flow chart for Decision Tree Model
+</p>
+</div>
+</div>
+<h2 id="experiments">5. Experiments</h2>
+<h3 id="data">5.1.Data</h3>
+<p>Our data can be divided into two parts: the first is the data that describes the pipelines in Mexico, and the spatial and non-spatial data that can help our analysis and modeling. The second part is the data on clandestine pipeline hydrocarbon product thefts in the municipalities in Mexico over time. Since we are in the first approach, we analyzed the data within a period from 2015 to 2019. This period was chosen since there was a significant increase in the theft of hydrocarbon products throughout the country. Therefore, the variables obtained in panel data were reduced to an average observation (municipality). In Figure <a href="#fig:Municipalitiesstolen">6</a> it can be appreciated the municipalities where thefts occurred.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Municipalitiesstolen"></span>
+<img src="figures/Mexico.png" alt="Municipalities that suffered attacks on pipes." width="60%" />
+<p class="caption">
+Figure 6: Municipalities that suffered attacks on pipes.
+</p>
+</div>
+</div>
+<h4 id="spatial-data">5.1.1. Spatial data</h4>
+<p>Since our phenomenon is spatial, we used geographic information systems (GIS) to capture different variables within the municipalities. For the above, ArcGIS and Qgis software were used. It is worth mentioning that obtaining the shape files (geographic files that store geometric location and other attributes) of the fuel pipelines in Mexico is problematic because the information is not advertised like in other institutions. However, through the platform of the National Hydrocarbons Information Center, dependent on the National Hydrocarbons Commission, it was possible to obtain shape files of all gasoline and gas pipelines, control centers, storage centers, and any other space-related to hydrocarbons<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. More than ten types of pipelines with different products cross through Mexico. Since the available databases do not report what kind of product was stolen (considering that the vast majority is gasoline), we assume that different products can be stolen on these different pipelines, considering that it has been reported that criminal groups have also stolen natural gas and other oil derivatives<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<p>We captured relevant information that can influence the hydrocarbon thefts, such as the number of gas stations and their prices in the different municipalities. For the above, the spatial location of gas stations throughout Mexico was downloaded and combined with their average gasoline price between 2015 and 2019. This information comes from the Energy Regulatory Commission (CRE for its acronym in Spanish)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+<p>Finally, as already mentioned, since we have a particular component, the ideal would be to implement a spatial model that captures these territorial relationships to obtain greater explanatory power. However, since the methodology we use is based on a classification, spatial variables were included to capture the phenomenon of gasoline theft from a territorial point of view. For example, Figure <a href="#fig:SpatialVariables">7</a> describes the variables that we consider relevant to control for this phenomenon in our model.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:SpatialVariables"></span>
+<img src="figures/Spatial%20Variables.png" alt="List of spatial variables" width="40%" />
+<p class="caption">
+Figure 7: List of spatial variables
+</p>
+</div>
+</div>
+<p>Once we obtained all our spatial variables, a projection of the layers and points of our variables was made on a map containing the municipalities in Mexico. With this projection, we implemented a spatial joint, which counts how many times a point is found in each polygon (in this case, our municipalities). From here, we got several results. The first was the number of gas stations per municipality and the number of intersections of pipelines across the municipalities. In this same analysis, we managed to codify the municipalities that have pipelines below their territories and those that do not. This step is essential since we avoid a selection bias we want to predict theft based on all the municipalities that have pipelines.
+With this wrangling, we obtained a database where for each municipality, it was possible to identify which one has pipelines in their territories, the number of gas stations, the average price of fuel, and the number of times multiple fuel lines cross municipalities.</p>
+<p>As mentioned before, including spatial variables in our model controls for the territorial factor. In this sense, variables such as the number of vehicles per 100,000 inhabitants or the density of roads by municipality give us an idea of how, once gasoline is stolen, it can be transported by different means. Given that this phenomenon has precisely this characteristic, what is expected is that these variables manage to capture municipalities with a greater or lesser network of highways or different paths to hide or evade the authorities with the stolen gasoline.</p>
+<h4 id="non-spatial-data">5.1.2. Non-Spatial data</h4>
+<p>In the non-spatial data, it was more direct to treat the variables, since they contained the municipality’s identifier key to join the information with our spatial variables. In these non-spatial data, we considered social characteristics that can influence the context in which a municipality may have a greater probability that their pipelines will be “attacked.” Since theft is a violent and security issue, we consider variables such as the number of homicides per 100,000 inhabitants and the confrontation between the military and criminal groups.</p>
+<p>Finally, as the phenomenon of violence is related to a component of poverty, we obtained the social lag index constructed by the National Council for the Evaluation of Social Development Policy (CONEVAL for its acronym in Spanish), a Mexican institution <span class="citation" data-cites="CONEVAL">(<a href="#ref-CONEVAL" role="doc-biblioref"><span>“Medición de La Pobreza”</span> 2022</a>)</span>. We calculated the average value between 2015 and 2019. For this, 2019 was calculated based on the average annual variation observed between 2015 and 2020. The social lag index scores can go from negative (less lag) to positive (more lag) values. Accompanied by this index, we include the variables with which the index was calculated.</p>
+<h4 id="clandestine-pipeline-hydrocarbon-products-thefts-in-mexico">5.1.3. Clandestine pipeline hydrocarbon products thefts in Mexico</h4>
+<p>Officially, if one requests information to obtain data about fuel theft, PEMEX responds that they cannot provide that information for national security reasons. However, Mexican platforms such as CartoCritica or Serendipia have made a legal effort to obtain these databases, to which they managed to provide us access. The data that we have reports the coordinates of the municipalities where the theft events happened by date and other characteristics <span class="citation" data-cites="Cartocritica">(<a href="#ref-Cartocritica" role="doc-biblioref"><span>“Tomas Clandestinas En Pemex 2008-2015”</span> 2022</a>)</span>.</p>
+<p>The second database contains the number of theft events on PEMEX pipelines, grouped by the municipality, from 2000 to 2018. This data was obtained directly from PEMEX Company based on the Federal Law on Transparency and Access to Public Information of Mexico (Request number 1857200094319, registered on March 21st, 2019) reported by the media <span class="citation" data-cites="Serendipia">(<a href="#ref-Serendipia" role="doc-biblioref"><span>“¿El Robo de Gasolina Es En Realidad Un Problema? El Caso Puebla: Huachicoleo Aumentó En Más de 3,000% de 2010 a 2018”</span> 2022</a>)</span>.</p>
+<p>The database contained 28 variables and 839 observations. In Figure <a href="#fig:SocialVariables">8</a> we show the features that our database has, and a sample can be observed in Figure <a href="#fig:Databasesample">9</a>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:SocialVariables"></span>
+<img src="figures/Social%20Variables.png" alt="List of social (non-spatial) variables." width="40%" />
+<p class="caption">
+Figure 8: List of social (non-spatial) variables.
+</p>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Databasesample"></span>
+<img src="figures/Database%20sample.png" alt="Database sample." width="40%" />
+<p class="caption">
+Figure 9: Database sample.
+</p>
+</div>
+</div>
+<h3 id="software-and-hardware">5.2. Software and hardware</h3>
+<p>The use of software was essential in the construction of spatial variables. As we already mentioned, ArcGis and Qgis were used to determine the spatial patterns and to be able to identify them with our municipalities of interest. On the other hand, the Python language was used to carry out the implementation of the model.
+In terms of hardware, we worked on Google Colab and Jupyter Notebook. In this case, the computational power was not demanding since the observations we handled (due to the nature of the work) were not so many.</p>
+<h3 id="experiment-method-and-experiment-details">5.3. Experiment method and experiment details</h3>
+<p>We did multiple approximations and compared them in two analyses, using the three models already mentioned: Logistic Algorithm, Decision Tree, and Random Forest. We distinguished two moments with our database for these models. In the first analysis, we used the average of our data from 2015-2019. In the same way, for the second analysis, the exact implementation we only applied the data for 2019 in all terms, training, and testing sets. The idea of the above is to cover scenarios considering or condensing more points in time in a single database and only taking the year in which clandestine tapping was most reported.</p>
+<p>During the initial evaluation of the database, the relation between each feature and the classification target was analyzed. For instance, the frequency of each variable does not identify a clear division in the observations that could help us to discover a bias. Additionally, the features were analyzed two by two to recognize some visual identity. Even so, it was not possible to make assumptions about each feature’s correlation with the target classification based on these visual elements.</p>
+<p>The data was preprocessed and scaled with Standard Scaler. The sample data from 2015-2019 was balanced since approximately 50% of the observations refer to susceptible municipalities and the rest to non-susceptible (or less susceptible) municipalities, as noticed in Figure <a href="#fig:Databasebalancing">10</a>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Databasebalancing"></span>
+<img src="figures/Database%20balancing.png" alt="Database balancing" width="40%" />
+<p class="caption">
+Figure 10: Database balancing
+</p>
+</div>
+</div>
+<p>This balancing is important, as it allows the model to be trained on a database that has a proportional number of positive and negative cases. The database was split into train and test randomly, and training data corresponded to 80% of the total database.</p>
+<h2 id="results">6. Results</h2>
+<h3 id="analysis">6.1. Analysis</h3>
+<p>As can be seen in Figure <a href="#fig:resultsf">11</a> these are the results for both scenarios using the mean from 2015-2019 and only the data for 2019 in the three different models.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:resultsf"></span>
+<img src="figures/results_chart_mean.png" alt="Models scores using the database with mean values from 2015-2019" width="100%" />
+<p class="caption">
+Figure 11: Models scores using the database with mean values from 2015-2019
+</p>
+</div>
+</div>
+<p>For the baseline using the Logistic Regression model, the results were promising. On the other hand, it was expected that we could have better results after adjusting the parameters and selecting some variables. For instance, the Figure <a href="#fig:ConfusionmatrixLR">12</a> presents the confusion matrix using the logistic regression model. Our next goal was to reduce false positives and false negatives significantly. For this purpose, we decided to add other variables that could help us understand the phenomenon of gasoline theft and other adjustments to our model.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ConfusionmatrixLR"></span>
+<img src="figures/Confusion_matrix_LR.png" alt="Confusion matrix results - LR model" width="40%" />
+<p class="caption">
+Figure 12: Confusion matrix results - LR model
+</p>
+</div>
+</div>
+<p>The Matthews correlation coefficient (MCC score) was 0,2974 (computed using the testing data). It shows that despite the previous results, this model was not capable to get good results in all confusion matrix categories (true positives, false negatives, true negatives, and false positives).
+It is mandatory to point out that the evaluation of a prediction model should never be performed based on just one parameter. Furthermore, it is the knowledge of the database and the results of various metrics that will enable a faithful assessment of the model’s performance.</p>
+<p>In addition to the Logistic Regression model, we decided to run the Decision Tree model and the Random Forest to check which would get better prediction scores. We used the same training and test split set (20% for the test portion).</p>
+<p>For the Decision Tree model, there were no limitations either in depth or in the number of observations per node, and the MCC score was 47.6% as presented in Figure <a href="#fig:resultsf">11</a>. In fact, the results were better than the previous ones collected for the Logistic Regression model. Figure <a href="#fig:ConfusionmatrixDT">13</a> presents the confusion matrix for the Decision Tree model.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ConfusionmatrixDT"></span>
+<img src="figures/Confusion_matrix_DT.png" alt="Confusion matrix results - DT model" width="40%" />
+<p class="caption">
+Figure 13: Confusion matrix results - DT model
+</p>
+</div>
+</div>
+<p>As shown in Figure <a href="#fig:resultsf">11</a>, the Random Forest model obtained the best scores among the three models, regardless of the scoring methodology used. The MCC score was 64.3% which, in line with the other expressive results, demonstrates the power of this model to predict cases of theft in Mexico. The confusion matrix (Figure <a href="#fig:ConfusionmatrixRF">14</a> presents the confusion matrix for the Random Forest model, and it proves how balanced this model predicts theft cases using the database with spatial features.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ConfusionmatrixRF"></span>
+<img src="figures/Confusion_matrix_RF.png" alt="Confusion matrix results - RF model" width="40%" />
+<p class="caption">
+Figure 14: Confusion matrix results - RF model
+</p>
+</div>
+</div>
+<p>We also tested the models with a database containing only records for the year 2019. The results are shown in Figure <a href="#fig:results2019">15</a>, but they demonstrate that this was not a good alternative, probably because that database was not balanced between the cases of municipalities susceptible to theft.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:results2019"></span>
+<img src="figures/results_chart_2019.png" alt="Models scores using only 2019 values" width="100%" />
+<p class="caption">
+Figure 15: Models scores using only 2019 values
+</p>
+</div>
+</div>
+<p>It is also crucial to mention that some features were removed from training and test data because we made a backward elimination analysis. Before this selection, we used the Random Forest embedded Gini Importance function to check which variables had the lower importance for the models and the results are presented in the Figure <a href="#fig:RFGinibefore">16</a>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:RFGinibefore"></span>
+<img src="figures/RF_Gini_importance_before.png" alt="Random Forest - Gini Importance - BEFORE backward variable/feature selection" width="80%" />
+<p class="caption">
+Figure 16: Random Forest - Gini Importance - BEFORE backward variable/feature selection
+</p>
+</div>
+</div>
+<p>After that, we applied the method proposed by Grover and realized that some variables (‘Confront_events’, ‘CVEGEO’, ‘Population’, ‘IRS’, ‘POB_6_16_NEB’, ‘POB_16_EBI’, ‘OVPT’, ‘OVSAE’, ‘NO_DREN’, ‘NO_ELECT’, ‘LINRED’, ‘vehicles_15_19’) do not contribute to the prediction capacity of our models. After this selection, the final database was composed of 16 variables.</p>
+<p>The updated version of the Gini Importance chart (Figure <a href="#fig:RFGini">17</a>) demonstrates that this selection was beneficial as a way to maintain the project’s score level with less computational processing.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:RFGini"></span>
+<img src="figures/RF_Gini_importance.png" alt="Random Forest - Gini Importance - AFTER backward variable/feature selection" width="80%" />
+<p class="caption">
+Figure 17: Random Forest - Gini Importance - AFTER backward variable/feature selection
+</p>
+</div>
+</div>
+<h2 id="conclusions">7. Conclusions</h2>
+<p>Gasoline theft in Mexico is an issue that must be addressed from multiple points of view. Pemex is losing millions of pesos without any of its security strategies. The results of this research are promising; however, much remains to be done. We need even more data to build more detailed models and implement more modern approaches like deep learning and other methodologies already trending in academia. If we strengthen this analysis, it can be a great starting point for designing specific security strategies based on our results. In terms of public policy and based on the results observed, it is necessary to cover those municipalities where the crossing of pipelines is more significant and, therefore, there is a greater probability of theft. Likewise, within PEMEX, corruption and impunity that makes criminal groups manage to extract fuel from multiple pipelines must be combated. In general, this research work is a good starting point for designing strategies based on scientific evidence that shed light on the best responses to combat the problem of gasoline theft in Mexico.</p>
+<h2 id="acknowledgments">8. Acknowledgments</h2>
+<p>We want to especially thank Alejandra Padilla, director of Serendipia for accessing the gasoline theft database in Mexico. Since it is not easy to obtain this database officially, the hard efforts of Alejandra and the entire Serendipia team made this work possible. We also thank Professor Slava and our teaching assistant Paulina for the feedback we received throughout the Machine Learning course.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-alonso2021theft" class="csl-entry" role="doc-biblioentry">
+Alonso Berbotto, Arantza, and Spencer Chainey. 2021. <span>“Theft of Oil from Pipelines: An Examination of Its Crime Commission in Mexico Using Crime Script Analysis.”</span> <em>Global Crime</em> 22 (4): 265–87.
+</div>
+<div id="ref-Serendipia" class="csl-entry" role="doc-biblioentry">
+<span>“¿El Robo de Gasolina Es En Realidad Un Problema? El Caso Puebla: Huachicoleo Aumentó En Más de 3,000% de 2010 a 2018.”</span> 2022. 2022.
+</div>
+<div id="ref-herrera2022diversifying" class="csl-entry" role="doc-biblioentry">
+Herrera, Joel Salvador, and Cesar B Martinez-Alvarez. 2022. <span>“Diversifying Violence: Mining, Export-Agriculture, and Criminal Governance in Mexico.”</span> <em>World Development</em> 151: 105769.
+</div>
+<div id="ref-james2021introduction" class="csl-entry" role="doc-biblioentry">
+James, Witten, G. 2021. <em>An Introduction to Statistical Learning</em>. Springer New York, NY.
+</div>
+<div id="ref-lorenc2020predicting" class="csl-entry" role="doc-biblioentry">
+Lorenc, Augustyn, Małgorzata Kuźnar, Tone Lerher, and Maciej Szkoda. 2020. <span>“Predicting the Probability of Cargo Theft for Individual Cases in Railway Transport.”</span> <em>Tehni<span>č</span>ki Vjesnik</em> 27 (3): 773–80.
+</div>
+<div id="ref-CONEVAL" class="csl-entry" role="doc-biblioentry">
+<span>“Medición de La Pobreza.”</span> 2022. 2022.
+</div>
+<div id="ref-ijgi10090600" class="csl-entry" role="doc-biblioentry">
+Nikparvar, Behnam, and Jean-Claude Thill. 2021. <span>“Machine Learning of Spatial Data.”</span> <em>ISPRS International Journal of Geo-Information</em> 10 (9). <a href="https://doi.org/10.3390/ijgi10090600">https://doi.org/10.3390/ijgi10090600</a>.
+</div>
+<div id="ref-peschard2021we" class="csl-entry" role="doc-biblioentry">
+Peschard Mariscal, Jacqueline, Marı́a Grisel Salazar Rebolledo, and Octavio Augusto Olea Gómez. 2021. <span>“What We Know so Far about Oil Theft in Mexico: Chiaroscuros of a Persistent Crime.”</span> <em>Revista Mexicana de Ciencias Pol<span>ı́</span>ticas y Sociales</em> 66 (241): 245–80.
+</div>
+<div id="ref-Cartocritica" class="csl-entry" role="doc-biblioentry">
+<span>“Tomas Clandestinas En Pemex 2008-2015.”</span> 2022. 2022.
+</div>
+<div id="ref-unilcomparison" class="csl-entry" role="doc-biblioentry">
+UNIL, IDIAP IDIAP. n.d. <span>“Comparison of Four Machine Learning Algorithms for Spatial Data Analysis.”</span>
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Database available at <a href="https://cartocritica.org.mx/2019/tomas-clandestinas-en-pemex-2008-2015/" class="uri">https://cartocritica.org.mx/2019/tomas-clandestinas-en-pemex-2008-2015/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>“Desde Pemex se organizaba el robo de combustible”: cómo funciona la red de ‘huachicoleo’ que detectó el gobierno de AMLO en México” - <a href="https://www.bbc.com/mundo/noticias-america-latina-46697816" class="uri">https://www.bbc.com/mundo/noticias-america-latina-46697816</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Database available at <a href="https://mapa.hidrocarburos.gob.mx/" class="uri">https://mapa.hidrocarburos.gob.mx/</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>“El huachicol se extiende al gas natural, advierte el gestor de ductos” - <a href="https://bit.ly/3TpV0mW" class="uri">https://bit.ly/3TpV0mW</a>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Database available at <a href="https://bit.ly/3fSvdpU" class="uri">https://bit.ly/3fSvdpU</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+<h3 id="updates-and-corrections">Corrections</h3>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/jurjoroa/pmx_gasoline_theft_prediction/issues/new">create an issue</a> on the source repository.</p>
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/jurjoroa/pmx_gasoline_theft_prediction">https://github.com/jurjoroa/pmx_gasoline_theft_prediction</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
