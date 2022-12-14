@@ -1,0 +1,42 @@
+---
+title: Hertie Coding Club
+subtitle: 'Session 3: (Re) Introduction to R'
+author:
+  - name: Jorge Roa
+margin-header: hertie_logo.png
+format:
+  revealjs:
+    title-slide-attributes:
+      data-background-image: images/hertie_logo.png
+      data-background-size: 15%
+      data-background-position: 2% 2%
+      data-background-color: steelblue
+      color: null
+    slide-number: c/t
+    multiplex: true
+    width: 1600
+    height: 750
+    logo: images/logo_hcc_bk.png
+    footer: 'Session 3: (Re) Introduction to R'
+    css:
+      - assets/syntax-highlight.css
+      - assets/custom.css
+      - assets/pacman.css
+    transition: fade
+    transition-speed: fast
+    margin-bottom: 1px
+    theme: default
+    echo: true
+highlight-style: dracula
+---
+
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Going to sleep
+
+- Get in bed
+- Count sheep

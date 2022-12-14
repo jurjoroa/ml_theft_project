@@ -1,0 +1,379 @@
+---
+title: Clandestine gasoline theft in Pemex pipelines
+subtitle: 'Theft prediction model in Mexican municipalities using machine learning'
+author:
+  - name: Jorge Roa
+  - name: Augusto Fonseca
+margin-header: images/pmx.png
+opts_chunk: 
+  python.options:
+        width: 10
+        backgorund-color: #FFFFFF;
+format:
+  revealjs:
+    title-slide-attributes:
+      data-background-image: images/pemex1.png
+      #data-background-size:  contain
+      data-background-color: white
+      color: null
+    slide-number: c/t
+    multiplex: true
+    width: 1600
+    height: 1000
+    logo: images/hertie_logo.png
+    footer: 'Clandestine gasoline theft in Pemex pipelines'
+    css:
+      - assets/syntax-highlight.css
+      - assets/custom.css
+      - assets/pacman.css
+    transition: fade
+    transition-speed: fast
+    margin-bottom: 1px
+    theme: default
+    echo: true
+highlight-style: dracula
+---
+
+
+# Context {auto-animate="true"  background-image="images/pmx2.png" style="text-align: left; font-size: 2.5em;"}
+
+# Context {auto-animate="true" background-image="images/pmx2.png" style="text-align: left; font-size: 1.5em;"}
+
+
+
+::: columns
+::: {.column width="50%"}
+
+::: {.incremental}
+
+- Violence and criminal activities have risen in Mexico in the past 20 years.
+
+- Increase in fuel theft committed by criminal groups (CG).
+
+   - Gas Pipelines are vulnerable in municipalities: CG drill a hole and extract gas.
+
+- **CG** sell gasoline in the black market at around half the official market price.
+:::
+:::
+::: {.column width="50%"}
+
+![](images/homicidio.png){.fragment width="600" height="350" fig-align="center"}
+
+![](images/michoacan.jpg){.fragment width="600" height="300" fig-align="center"}
+
+:::
+:::
+
+
+
+
+
+# Problem 🆘 {auto-animate="true" background-image="images/huachicol3.png" style="text-align: left; font-size: 2.5em;"}
+
+# Problem 🆘 {auto-animate="true" background-image="images/huachicol3.png" style="text-align: left; font-size: 1.5em;"}
+
+</br>
+
+::: {.incremental}
+
+- 👥 ⛽ Gasoline theft generate a spiral of violence in Mexico due to criminal groups trying to control pipelines 
+
+</brxsmall>
+
+- 💰 Affects the national heritage of oil-state company PEMEX (Petroleos Mexicanos
+in Spanish).  1,100 USD millons
+
+</brxsmall>
+
+- 🔀 Corruption: the sale of stolen gasoline and the corrupt complicity of the authorities is normalized.
+
+:::
+
+
+# Objective of research {auto-animate="true" background-image="images/huachicol4.png" style="text-align: center; font-size: 2em;"}
+
+# Objective of research {auto-animate="true" background-image="images/huachicol4.png" style="text-align: center; font-size: 1.5em;"}
+
+<i class = "font_1">
+
+::: {.fragment .highlight-blue}
+
+Predict which municipalities are more susceptible to experience gasoline theft.
+
+:::
+
+</i>
+
+</br>
+
+::: columns
+::: {.column width="60%"}
+
+<center>
+
+
+![](images/Mexico_pipelines.png){ width="900" height="600" fig-align="center"}
+
+</center>
+
+:::
+::: {.column width="40%"}
+
+
+
+:::
+:::
+
+# Objective of research {auto-animate="true" background-image="images/huachicol4.png" style="text-align: center; font-size: 1.5em;"}
+
+<i class = "font_1">
+
+::: {.highlight-blue}
+
+Predict which municipalities are more susceptible to experience gasoline theft.
+
+:::
+
+</i>
+
+</br>
+
+::: columns
+::: {.column width="60%"}
+
+<center>
+
+
+![](images/Mexico_pipelines.png){ width="900" height="600" fig-align="center"}
+
+</center>
+
+
+
+
+:::
+::: {.column width="40%"}
+
+
+::: {.fragment .highlight-blue}
+
+<i class = "font_8">
+
+Mexico has 2,471 municipalities. 
+
+</i>
+
+</brxsmall>
+
+:::
+
+</brxsmall>
+
+::: {.fragment .highlight-red}
+
+<i class = "font_8">
+
+- 839 municipalities have pipelines. 33% of all municipalities in 🇲🇽
+
+</i>
+
+:::
+
+</brxsmall>
+
+::: {.fragment .highlight-red}
+
+<i class = "font_8">
+
+- Data show us which municipalities with pipelines didn't suffer gas theft and which ones did.
+
+</i>
+</i>
+
+:::
+
+::: {.fragment .highlight-blue}
+
+<i class = "font_8">
+
+- For predicting gas theft: include essential features to describe violence in municipalities and spatial elements to define territory. 
+
+</i>
+
+:::
+:::
+:::
+
+
+
+# Data 💾{auto-animate="true" background-image="images/huachicol6.png" style="text-align: center; font-size: 2em;"}
+
+# Data 💾{auto-animate="true" background-image="images/huachicol6.png" style="text-align: center; font-size: 1.5em;"}
+
+::: {.fragment .fade-up}
+
+Mean between 2015 and 2019
+
+::: 
+
+::: columns
+::: {.column width="50%"}
+
+Spatial data
+
+::: {.incremental}
+
+<i class = "font_5">
+
+| **Feature** | **Description** | **Source** |
+|:---|:-----:|:-:|
+| **Gas stations**    | # Gas stations | ![](images/cre.png){ width="85" height="40"}    |
+| **Gas price**    | Gas prices   | ![](images/cre.png){ width="85" height="40"}    |
+| **Density**    | Road density highways | ![](images/cedrus.jpg){ width="125" height="50"}   |
+| **Density network**    | Road density all    | ![](images/cedrus.jpg){ width="125" height="40"}    |
+| **Area**    | Area of the municipality in $km^2$ | ![](images/cedrus.jpg){ width="125" height="40"}    |
+| **Network**    | 3 features road characteristics    | ![](images/cedrus.jpg){ width="125" height="40"}   |
+
+
+</i>
+
+:::
+
+
+:::
+::: {.column width="50%"}
+
+Non-Spatial data
+
+::: {.incremental}
+
+<i class = "font_5">
+
+| **Feature** | **Description** | **Source** |
+|:--:|:-------:|:---:|
+| **Intersection**    | Pipelines intersections   | ![](images/cnh.png){ width="170" height="60"}    |
+| **Susceptible**    | 1: thefts in pipelines. 0: otherwise.   | ![](images/serendipia.png){ width="200" height="30"}    |
+| **Confrontation**    | Armed forces vs. criminal groups. | ![](images/ppd.png){ width="125" height="50"}   |
+| **Homicide**    | Homicides per100,000 inhabitants.    | ![](images/INEGI.png){ width="125" height="25"}    |
+| **IRS**    | Poverty index   | ![](images/coneval.png){ width="125" height="40"}    |
+| **Social**    | 11 features social characteristics    | ![](images/coneval.png){ width="125" height="40"}   |
+
+
+</i>
+
+:::
+
+
+:::
+:::
+
+
+# Model 🎛{auto-animate="true" background-image="images/huachicol5.png" style="text-align: center; font-size: 2em;"}
+
+# Model 🎛{auto-animate="true" background-image="images/huachicol5.png" style="text-align: center; font-size: 1.5em;"}
+
+
+
+Classification component: one of the most used to determine predictions based on multiple characteristics.
+
+
+
+::: columns
+::: {.column width="30%" fig-align="center"}
+
+::: {.fragment}
+
+<i class = "font_8">
+
+**Logistic Regression**
+
+</brxsmall>
+
+Excellent for predicting binary responses: in our case, which municipalities that have pipelines suffer gas theft and which don't?
+
+![](images/lr.png){ width="250" height="200"}
+
+</i>
+
+:::
+:::
+::: {.column width="30%"}
+
+
+::: {.fragment}
+
+<i class = "font_8">
+
+**Decision Tree**
+
+</brxsmall>
+
+Predicts the theft by learning simple decision rules inferred from the our features.
+
+![](images/dt.png){ width="200" height="200"}
+
+</i>
+
+::: 
+:::
+::: {.column width="30%"}
+
+::: {.fragment}
+
+<i class = "font_8">
+
+**Random Forest**
+
+Basically, built on decision trees. 
+
+![](images/rf.png){ width="200" height="200"}
+
+</i>
+
+:::
+:::
+:::
+
+# Results 📊 {auto-animate="true" background-image="images/huachicol7.png" style="text-align: center; font-size: 2em;"}
+
+# Results 📊 {auto-animate="true" background-image="images/huachicol7.png" style="text-align: center; font-size: 1.5em;"}
+
+::: columns
+::: {.column width="50%" fig-align="center"}
+
+![](images/result_mean.png){ width="1000" height="600"}
+
+:::
+::: {.column width="50%"}
+
+<i class = "font_7">
+
+
+Celaya, San Juan del Río, Pachuca, Puebla and Irapuato. 99% probability
+
+
+</i>
+
+![](images/resultados.png){ width="1000" height="600"}
+
+
+
+:::
+:::
+
+# Conclusion 🏁 {auto-animate="true" background-image="images/huachicol8.png" style="text-align: center; font-size: 2em;"}
+
+# Conclusion 🏁 {auto-animate="true" background-image="images/huachicol8.png" style="text-align: center; font-size: 1.5em;"}
+
+
+::: {.incremental}
+- Gasoline theft in Mexico is an issue that must be addressed from multiple points of view.
+
+- Pipeline intersections seems to be one important feature that help us understand gasoline theft. 
+
+- Implement spatial models and deep learning
+
+- **Public policy**: necessary to cover those municipalities where the crossing of pipelines is more significant and, therefore, there is a greater probability of theft.
+:::
+
+

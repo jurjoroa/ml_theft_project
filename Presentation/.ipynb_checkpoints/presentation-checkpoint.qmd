@@ -1,0 +1,1193 @@
+---
+title: "Hertie Coding Club"
+subtitle: "(Re) Introduction to R"
+author: 
+  - name: Jorge Roa
+margin-header: hertie_logo.png
+opts_chunk: 
+  R.options:
+        width: 10
+#title-slide-attributes: 
+#  data-background-size: 10%
+#  data-background-position: 100% 100%
+#  data-background-image: HCC-HD.png
+format:
+    revealjs:
+      title-slide-attributes: 
+       data-background-image: images/hertie_logo.png
+       data-background-size: 15%
+       data-background-position: 2% 2%
+       color: #517699;
+      slide-number: c/t
+      multiplex: true
+      width: 1600
+      height: 1000
+      logo: images/logo_hcc_bk.png
+      footer: "[(Re) Introduction to R](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+      css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+      transition: fade
+      transition-speed: fast
+      margin-bottom: 1px
+      theme: default
+      echo: true
+
+      #{style="float:right;text-align:right;"} For specific
+---
+
+# Welcome {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 2.5em;"}
+
+![](images/welcome.gif){fig-align="center" height="300"}
+
+## Agenda for today {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center;"}
+
+::: columns
+::: {.column width="50%"}
+-   Objective of the club. Why this club?
+-   Who we are?
+-   Motivation
+-   Dinamic of the sessions
+-   Slack
+-   GitHub and GitHub Desktop
+-   R and RStudio
+:::
+
+::: {.column width="50%"}
+-   Customize our RStudio appearance
+-   Create our first project
+-   RStudio elements
+-   Working directory
+-   Packages
+-   Objects
+-   Summary
+-   Next session
+:::
+:::
+
+# Objective of the club. Why this club? {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 2em;"}
+
+# Objective of the club. Why this club? {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left;"}
+
+</br>
+
+-   💻 Data is a relevant trend and us, as future policy makers, must have those skills.
+
+</brxsmall>
+
+-   🧑‍🔬 **Programming**: You are developing your problem-solving skills. The time you spend learning how to code and resolving code problems makes us think more logically.
+
+</brxsmall>
+
+-   **📣 Gap**: A lot of people want to learn code, but you must take Stats I and Stats II to have the right to apply to the Introduction to Data Science Course. Why should we not start learning from the first semester?
+
+</brxsmall>
+
+-   **🚂 Democratize learning code**: No matter if you are from the MPP, MIA, or another program, everyone should learn how to code and possess those abilities; we must exploit our potential.
+
+# Who are we? {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 2em;"}
+
+</br> </br> </br> </br> </br>
+
+# Who are we? {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left;"}
+
+<center>Instructors</center>
+
+::: columns
+::: {.column width="20%"}
+<center>
+
+```{r, echo=FALSE, out.width="70%", out.height="70%", out.extra='class="myimg"'}
+knitr::include_graphics("images/gabriel.jpeg")
+```
+
+Gabriel Zech
+
+</brxsmall>
+
+MDS 2023
+
+</brxsmall>
+
+Project Manager
+
+</brxsmall>
+
+(Data Science Lab) Bertelsmann Stiftung
+
+</center>
+:::
+
+::: {.column width="20%"}
+<center>
+
+```{r, echo=FALSE, out.width="70%", out.height="70%", out.extra='class="myimg"'}
+knitr::include_graphics("images/carmen.jpeg")
+```
+
+Carmen Garro
+
+</brxsmall>
+
+MDS
+
+</brxsmall>
+
+2024
+
+</center>
+:::
+
+::: {.column width="20%"}
+<center>
+
+```{r, echo=FALSE, out.width="70%", out.height="70%", out.extra='class="myimg"'}
+knitr::include_graphics("images/jorge.jpeg")
+```
+
+Jorge Roa
+
+</brxsmall>
+
+MDS
+
+</brxsmall>
+
+2024
+
+</center>
+:::
+
+::: {.column width="20%"}
+<center>
+
+```{r, echo=FALSE, out.width="70%", out.height="70%", out.extra='class="myimg"'}
+knitr::include_graphics("images/lukas.jpeg")
+```
+
+Lukas Warode
+
+</brxsmall>
+
+MDS 2023
+
+Data Researcher
+
+</brxsmall>
+
+POLITICO
+
+</center>
+:::
+
+::: {.column width="20%"}
+<center>
+
+```{r, echo=FALSE, out.width="70%", out.height="70%", out.extra='class="myimg"'}
+knitr::include_graphics("images/rodrigo.png")
+```
+
+Rodrigo Dornelles
+
+</brxsmall>
+
+MDS
+
+</brxsmall>
+
+2024
+
+</center>
+:::
+:::
+
+# Who are we? {background="#517699" style="text-align: left; font-size: .9em;"}
+
+<center>Communications</center>
+
+::: columns
+::: {layout-nrow="2"}
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/ileana.jpeg")
+```
+
+<i class = "font_small">
+
+Ileana Marroquin (MPP 2023)
+
+Coordinator alligator
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/ridhima.jpeg")
+```
+
+<i class = "font_small">
+
+Ridhima Singh (MPP 2024)
+
+Coordinator alligator
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/mary.jpg")
+```
+
+<i class = "font_small">
+
+Mary Nguyen (MPP 2023)
+
+Celebrity promoter (Social Media)
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/chheng.jpg")
+```
+
+<i class = "font_small">
+
+Chhengpor Aun (MIA 2024)
+
+Celebrity promoter (Social Media)
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/lisa_f.jpg")
+```
+
+<i class = "font_small">
+
+Lisa Bewermeier (MPP 2024)
+
+Celebrity promoter (Social Media)
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/natascha.jpg")
+```
+
+<i class = "font_small">
+
+Natascha Schoepl (MPP 2023)
+
+Central office emissary
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/abigail.jpg")
+```
+
+<i class = "font_small">
+
+Abigail Pena Alejos (MPP 2023)
+
+Central office emissary
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/kaja.jpg")
+```
+
+<i class = "font_small">
+
+Kaja Buxrud (MPP 2024)
+
+Promotion emotion
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/isaac.jpg")
+```
+
+</brxsmall_small>
+
+<i class = "font_small">
+
+Issac John (MPP 2024)
+
+Promotion emotion
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/fernando.jpeg")
+```
+
+</brxsmall_small>
+
+<i class = "font_small">
+
+Fernando Segovia (MIA 2024)
+
+Promotion emotion
+
+</center>
+
+</i>
+:::
+
+::: {.column width="3%"}
+<center>
+
+```{r, echo=FALSE, out.width="50%", out.height="50%", out.extra='class="myimg"'}
+knitr::include_graphics("images/aayran.png")
+```
+
+<i class = "font_small">
+
+Aayran Salman (MPP 2024)
+
+Canva Wizard
+
+</center>
+
+</i>
+
+
+
+:::
+:::
+:::
+
+# Motivation {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 2.5em;"}
+
+# Motivation {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 1em;"}
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+This was my first graph in R
+
+```{r, echo=FALSE, out.width="65%", out.height="65%"}
+knitr::include_graphics("images/fg_before.png")
+```
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+How I improved
+
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/motivation_2.png")
+```
+:::
+:::
+:::
+
+# Motivation {background="#517699" style="text-align: center; font-size: 1em;"}
+
+::: columns
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/lukas_r.jpeg")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivation_3.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivation_4.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="70%", out.height="70%"}
+knitr::include_graphics("images/motivacion_9.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="70%", out.height="70%"}
+knitr::include_graphics("images/motivacion_12.png")
+```
+:::
+:::
+
+# Motivation {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 1em;"}
+
+::: columns
+::: {layout-ncol="6"}
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivacion_11.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivation_5.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivation_6.png")
+```
+:::
+
+::: {.column width="30%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/motivacion_13.png")
+```
+:::
+
+::: {.column width="40%"}
+```{r, echo=FALSE, out.width="250%", out.height="250%"}
+knitr::include_graphics("images/motivacion_8.png")
+```
+:::
+:::
+:::
+
+# What is the key to learn how to code {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: .7em;"}
+
+</br> </br> </br>
+
+::: columns
+::: {.column width="60%"}
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/r_rollercoaster.png")
+```
+:::
+
+::: {.column width="40%"}
+-   Learning a new thing can be difficult sometimes.
+-   Getting errors can be scary: don't worry, we are here for you.
+-   In my opinion: the more errors you get, the better. Why? Because you learn from those errors. (It doesn't apply to real life :p)
+-   From my own experience: patience.
+-   The goal of the club is help us each other learn how to code.
+:::
+:::
+
+# Dynamic of the sessions {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 1.7em;"}
+
+# Dynamic of the sessions {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: center; font-size: 1em;"}
+
+</br> </br>
+
+::: columns
+::: {.column width="60%"}
+```{r, echo=FALSE, out.width="60%", out.height="60%"}
+knitr::include_graphics("images/dewey.gif")
+```
+:::
+
+::: {.column width="40%"}
+-   In the short run, we will have sessions for introduction to R (weekly)
+-   We hope this semester, we can have specific sessions for advanced R users and other languages (Python, SQL).
+-   We will record the sessions for future reference.
+:::
+:::
+
+# Slack {background="#517699" style="text-align: center; font-size: 1em;"}
+
+</br>
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/slack.jpg")
+```
+:::
+
+::: {.column width="40%"}
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/slack_logo.png")
+```
+
+-   **Permanent platform for Hertie Community**
+-   Like a WhatsApp for code.
+-   Share code, share files, and ask questions.
+-   One of the most popular platforms in the data science world.
+:::
+:::
+
+# GitHub and GitHub Desktop {background="#517699" style="text-align: center; font-size: 1em; "}
+
+</br>
+
+::: columns
+::: {.column width="60%"}
+```{r, echo=FALSE, out.width="70%", out.height="70%"}
+knitr::include_graphics("images/github_ide.png")
+```
+:::
+
+::: {.column width="40%"}
+```{r, echo=FALSE, out.width="40%", out.height="40%"}
+knitr::include_graphics("images/github.png")
+```
+
+-   Website and cloud-based service to store and manage code
+
+-   Git IDE: used in the programming world. It is used for tracking changes in the source code during software development.
+
+-   It makes it easier for individuals and teams to use Git for version control and collaboration.
+:::
+:::
+
+# R and RStudio {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 2.5em;"}
+
+# R and RStudio {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+Why R?
+
+-   Open source
+-   One of the most used language programs in the world
+-   Works for every type of data (shape and sizes)
+-   Easy to learn it (We will help you with that)
+-   More than 18,000 packages
+:::
+
+::: {.column width="50%"}
+![](images/barney.gif){fig-align="center" height="300"}
+:::
+:::
+
+# Customize our RStudio appearance {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1.5em;"}
+
+# Customize our RStudio appearance {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio1.png")
+```
+:::
+
+::: {.column width="50%"}
+Welcome to RStudio
+
+-   First window that appears when you open RStudio
+-   Let's change the appearance of RStudio
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio2.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio3.png")
+```
+:::
+:::
+:::
+
+# Customize our RStudio appearance {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+<center>
+
+```{r, echo=FALSE, out.width="40%", out.height="40%"}
+knitr::include_graphics("images/rstudio4.png")
+```
+
+-   Blue is my favorite color. For me looks awesome! What about you?
+
+</center>
+
+# Create our first project {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1.5em;"}
+
+# Create our first project (Step 1) {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio5.png")
+```
+:::
+
+::: {.column width="50%"}
+Go to the next steps:
+
+-   Create a new directory (Where we will store our project)
+-   Select "New Project"
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio6.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio7.png")
+```
+:::
+:::
+:::
+
+# Create our first project (Step 2) {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/rstudio7.png")
+```
+
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/rstudio8.png")
+```
+:::
+
+```{r, echo=FALSE, out.width="70%", out.height="70%"}
+knitr::include_graphics("images/rstudio9.png")
+```
+:::
+
+::: {.column width="50%"}
+Go to the next steps:
+
+-   Select again New Project
+-   Choose the path where you want to create your project (It should be a folder)
+
+```{r, echo=FALSE, out.width="40%", out.height="40%"}
+knitr::include_graphics("images/rstudio10.png")
+```
+:::
+:::
+
+# Working directory (How we load and save things in R) {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="80%", out.height="80%"}
+knitr::include_graphics("images/rstudio20.png")
+```
+
+<i class = "font_small"> Go to the next steps:
+
+-   data/: for processed data
+-   data-raw/: for raw data and intermediate datasets (Internet, f.e.)
+-   figures/: for save your plots
+-   analysis/: for save your scripts
+-   documents/: for outlines, drafts, other text
+-   R/: for functions
+
+</i>
+:::
+
+::: {.column width="50%"}
+Alarid et. al. (2019)
+
+```{r, echo=FALSE, out.width="70%", out.height="70%"}
+knitr::include_graphics("images/rstudio21.png")
+```
+:::
+:::
+
+# YOU ARE READY {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1.5em;"}
+
+```{r, echo=FALSE, out.width="30%", out.height="30%"}
+knitr::include_graphics("images/ready.gif")
+```
+
+# RStudio {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1em;"}
+
+Create a script (This is the place where we write code)
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio11.png")
+```
+:::
+
+::: {.column width="50%"}
+Go to the next steps:
+
+-   In the file section, create an R script
+-   Save inside your analysis folder
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio12.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio13.png")
+```
+:::
+:::
+:::
+
+# Source {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1em;"}
+
+The source pane is where you create and edit R Scripts
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio14.png")
+```
+:::
+
+::: {.column width="50%"}
+-   "Command + Return" on Mac, or "Control + Enter" on PC to send all highlighted code to the console.
+-   Save it inside your analysis folder
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio16.png")
+```
+:::
+:::
+
+# Console {background="#517699" style="text-align: left; font-size: 1em;"}
+
+The console is the heart of R.
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio14.png")
+```
+:::
+
+::: {.column width="50%"}
+-   Here R actually evaluates your code
+-   Try to write most of your code in a document in the Source. Only type directly into the Console to de-bug or do quick analyses.
+-   When ready: \> and If waiting: +
+-   Cancel commands by pressing Esc.
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio17.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio17_1.png")
+```
+:::
+:::
+:::
+
+# Environment/History {background="#517699" style="text-align: left; font-size: 1em;"}
+
+The Environment tab of this panel shows you the names of all the data objects
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio14.png")
+```
+:::
+
+::: {.column width="50%"}
+-   You can also see information like the number of observations and rows in data objects
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio18.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio18_1.png")
+```
+:::
+:::
+:::
+
+# Files and more {background="#517699" style="text-align: left; font-size: 1em;"}
+
+The Files / Plots / Packages / Help panel shows you lots of helpful information
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio14.png")
+```
+:::
+
+::: {.column width="50%"}
+-   Files - The files panel gives you access to the file directory on your hard drive.
+-   Plots - The Plots panel shows all your plots.
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio19.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio19_1.png")
+```
+:::
+:::
+:::
+
+# Packages {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 1.5em;"}
+
+# Packages {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+Why R?
+
+-   Packages in R Programming language are a set of R functions, compiled code, and sample data. These are stored under a directory called "library" within the R environment.
+-   R packages provide a simple way to distribute R code and documentation.
+-   Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data
+-   More than 18,000 packages
+-   Extends the capacity of R and allows us to do much more
+:::
+
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio22.png")
+```
+:::
+:::
+
+# How we install packages {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+The easy way
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="110%", out.height="110%"}
+knitr::include_graphics("images/rstudio23.png")
+```
+:::
+
+::: {.column width="50%"}
+-   Go to the "Packages" tab
+-   Press the "Install" button
+
+::: {layout-ncol="2"}
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio23_1.png")
+```
+
+```{r, echo=FALSE, out.width="100%", out.height="100%"}
+knitr::include_graphics("images/rstudio23_2.png")
+```
+:::
+:::
+:::
+
+# How we install packages {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+The easy way
+
+::: columns
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width="50%", out.height="50%"}
+knitr::include_graphics("images/rstudio24.png")
+```
+:::
+
+::: {.column width="50%"}
+-   Other way is type in the console\
+-   install.packages("tidyverse")
+
+```{r, echo=FALSE, out.width="120%", out.height="120%"}
+knitr::include_graphics("images/rstudio24_1.png")
+```
+:::
+:::
+
+# Objects {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 2.5em;"}
+
+# Objects {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+Why objects?
+
+-   R works with objects (vectors, dataframes, lists, numbers, etc)
+-   To do useful and interesting things in R, we need to assign values to objects.
+-   To create an object, give it a name followed by the assignment operator, followed by the value.
+-   Assignment operator \<-
+-   Can also use = but not recommended
+-   Shortcut: "Alt + -" on PC, "Option + -" on Mac
+
+```{r}
+#| class-source:  width_chunk5
+#| classes:  width_chunk5
+
+x <- 2 + 2
+
+x
+```
+:::
+
+::: {.column width="50%"}
+![](images/create.gif){fig-align="center" height="300"}
+:::
+:::
+
+# Type of objects {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+There are 5 basic types of objects in the R language:
+
+::: columns
+::: {.column width="50%"}
+-   **Atomic vectors** are one of the basic types of objects in R programming. Atomic vectors can store homogeneous data types such as character, doubles, integers, raw, logical, and complex.
+-   **List** is another type of object in R programming. List can contain heterogeneous data types such as vectors or another lists.
+
+```{r}
+#| class-source:  width_chunk5
+#| classes:  width_chunk5
+
+#Numeric vector
+numbers <- c(1, 2, 3, 4)
+
+#String vector
+characters <- c("a", "b", "c", "d")
+
+#Numeric value
+value <- 5
+
+#List
+my_list <- list(c(1, 2, 3, 4), list("a", "b", "c"))
+
+
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+#| class-source:  width_chunk5
+#| classes:  width_chunk5
+
+print(numbers)
+
+print(characters)
+
+print(value)
+
+print(my_list)
+```
+:::
+:::
+
+# More type of objects {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+-   **Matrices**: To store values as 2-Dimensional array, matrices are used in R. Data, number of rows and columns are defined in the matrix() function.
+-   **Arrays**: array() function is used to create n-dimensional array. This function takes dim attribute as an argument and creates required length of each dimension as specified in the attribute.
+:::
+
+::: {.column width="50%"}
+```{r}
+#| class-source:  width_chunk5
+#| classes:  width_chunk5
+
+x <- c(1, 2, 3, 4, 5, 6)
+  
+# Matrix
+mat <- matrix(x, nrow = 2)
+
+arr <- array(c(1, 2), dim = c(3, 3))
+
+```
+
+```{r}
+#| class-source:  width_chunk5
+#| classes:  width_chunk5
+
+print(mat)
+
+print(arr)
+
+```
+:::
+:::
+
+# Finally: dataframes {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+-   Data frames are 2-dimensional tabular data object in R programming.
+-   Data frames consists of multiple columns and each column represents a vector.
+-   Columns in data frame can have different modes of data unlike matrices.
+:::
+
+::: {.column width="50%"}
+```{r}
+#| class-source:  height_chunk4
+#| classes:  height_chunk4
+
+# Create vectors
+who <- c("Mom", "Sister", "Myself", "Dad", "Brother", "Brother", "Our dog (:")
+age <- c(58, 17, 25,60, 29, 27, 5)
+names <- c("Carmen", "Fernanda", "Jorge", "Arturo", "Ale", "Eduardo", "Rocky")
+  
+# Create data frame of vectors
+df_my_family <- data.frame(who, age, names)
+
+```
+
+```{r}
+#| class-source:  height_chunk
+#| classes:  height_chunk
+
+print(df_my_family)
+
+```
+:::
+:::
+
+# Now it's your turn {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699" style="text-align: left; font-size: 2.5em;"}
+
+# Exercise {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+-   Create a dataframe of your family with multiple vectors.
+
+-   Include age, position (mom, dad, etc), their names and their birthdays.
+
+-   Hint:
+
+```{r}
+#| class-source:  height_chunk4
+#| classes:  height_chunk4
+
+# Create vectors
+who <- c()
+age <- c()
+names <- c()
+birthday <- "?"
+  
+# Create data frame of vectors
+df_my_family <- data.frame("Here you put your vectors")
+
+```
+
+REMEMBER: They must have the same length.
+:::
+
+::: {.column width="50%"}
+![](images/rumble.gif){fig-align="center" height="300"}
+:::
+:::
+
+# Summary {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+-   Customize our RStudio appearance
+-   Create our first project
+-   RStudio elements
+-   Working directory
+-   Packages
+-   Objects
+-   Summary
+-   Next session
+:::
+
+::: {.column width="50%"}
+![](images/summary.gif){fig-align="center" height="300"}
+:::
+:::
+
+# Next session {auto-animate="true" auto-animate-easing="ease-in-out" background="#517699"}
+
+::: columns
+::: {.column width="50%"}
+-   Base R
+-   Load and save objects
+-   Pipelines
+-   Tidyverse
+-   And more...
+:::
+
+::: {.column width="50%"}
+-   Same channel (Forum)
+
+-   Same day and hour Friday, November 11 (14:00 hrs - 16:00 hrs)
+
+-   Join Slack if you haven't.
+
+-   Use Slack for questions.
+
+-   Follow us in our social media:
+
+-   📷 Instagram: hertiecodingclub
+
+-   🐦 Twitter: @HertieCodingCLB
+:::
+:::
+
+# Thanks for your time and welcome {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center; font-size: 1em;"}
+
+
+![](images/logofinallong.jpg){fig-align="center" height="110"}
+
+Remember that everybody can learn how to code!!
+
+</br>
+
+<i class = "font_small">
+1200 lines of code where created for this presentation.
+
+</i>
