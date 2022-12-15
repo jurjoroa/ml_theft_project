@@ -40,56 +40,7 @@ Machine Learning <br/>
 ## Description
 
 
-Pemex is a Mexican state-owned company that produces, transports, refines and markets oil and natural gas. It has pipelines throughout the 32 states in Mexico for the distribution of oil. 
-Clandestine intakes detected in Pemex pipelines have increased by 2,197% from 2008 to 2015. These attacks have been reported in 24 federal entities of the country and the database is available <a href="https://cartocritica.org.mx/2019/tomas-clandestinas-en-pemex-2008-2015/">here</a>. The database contains the affected pipelines, their exact location, the geographic location of the clandestine pipeline, the date of the attack, the state/city where the attack took place, the material used for the construction of the pipeline, the type of repair and other data. The initial database contains 20,894 rows and 36 variables, but it still needs to be tidied up for use.
-The purpose of this project is to analyze this kind of crime and to identify the most susceptible places and pipelines to be attacked. For which, we will use a machine learning model, that will be defined later.
+Pemex is a Mexican state-owned company that produces, transports, refines and markets oil and natural gas. It has pipelines throughout the 32 states in Mexico for the distribution of oil. Clandestine intakes detected in Pemex pipelines have increased by 2,197% from 2008 to 2015. These attacks have been reported in 24 federal entities of the country and the database is available <a href="https://cartocritica.org.mx/2019/tomas-clandestinas-en-pemex-2008-2015/">here</a>. 
 
-##
+Violence and criminal activities have risen in Mexico in the past 20 years. One problem that has been increasing is fuel theft committed by criminal groups. This is a serious problem because this activity could increase violence among criminal groups to have control over different pipelines. The main problem of clandestine gasoline theft is predicting which areas are more likely to have gasoline theft by criminal groups. With this problem, this research aims to predict which municipalities are more susceptible to experiencing gasoline theft. In this sense, our contribution is first to understand which features influence pipeline thefts in Mexico; second, to use a machine learning approach to classify which municipalities are more susceptible to be subject to gasoline theft by criminal groups; third, to promote quantitative research on the phenomenon of gasoline theft in Mexico. The project analyzed 839 Municipalities that have pipelines and classified them as "susceptible" or not. We implemented a Logistic Regression model, a Decision Tree Classifier and a Random Forest Classifier (RF). According to the results, the RF was the best with 82.14% in accuracy; 82.35% in both precision, recall, and F1 scores, and 64.28% in MCC Score.
 
-
-
-## 🚩 Table of Contents
-
-- [Title 1](#-title-1)
-- [Title 2](#-title-2)
-- [Title 3](#-title-3)
-- [Title 4](#-title-4)
-- [Title 5](#-title-5)
-- [Title 6](#-title-6)
-- [Title 7](#-title-7)
-- [Title 8](#-title-8)
-- [Title 9](#-title-9)
-- [License](#-license)
-
-
-## 📦 Title 1
-
-
-
-## 🤖 Title 2
-
-
-
-## 🎨 Title 3
-
-
-## 🐾 Title 4
-
-
-## 🌏 Title 5
-
-## 🔧 Title 6
-
-
-## 💬 Title 7
-
-
-## 🍞 Title 8
-
-
-## 🚀 Title 9
-
-
-## 📜 License
-
-This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
