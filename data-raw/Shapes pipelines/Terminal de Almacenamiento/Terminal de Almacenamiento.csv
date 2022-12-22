@@ -1,0 +1,74 @@
+﻿REGIóN,NOMBRE,"CAPACIDAD NOMINAL (BARRILES)","CAPACIDAD OPERATIVA (BARRILES)","CAPACIDAD OPERATIVA-NOMINAL (%)","MEDIO DE SUMINISTRO"
+"Región Sur-Sureste",Acapulco,"235,000","182,754",78%,"Buque tanque"
+"Región Sur-Sureste",Campeche,"265,000","230,529",87%,"Buque tanque"
+"Región Sur-Sureste",Escamela,"98,000","86,026",88%,Ducto
+"Región Sur-Sureste",Merida,"148,000","128,500",87%,Ducto
+"Región Sur-Sureste",Oaxaca,"110,000","91,080",83%,"Auto tanque"
+"Región Sur-Sureste",Perote,"25,000","22,763",91%,"Auto tanque"
+"Región Sur-Sureste","Poza Rica","54,992","45,608",83%,Ducto
+"Región Sur-Sureste",Progreso,"280,797","233,669",83%,"Buque tanque"
+"Región Sur-Sureste","Salina Cruz","206,000","175,634",85%,Refineria
+"Región Sur-Sureste",Tapachula,"24,422","19,341",79%,"Auto tanque"
+"Región Sur-Sureste","Tierra Blanca","70,708","59,655",84%,Ducto
+"Región Sur-Sureste",Veracruz,"356,006","286,841",81%,"Ductos / Auto tanque"
+"Región Sur-Sureste",Villahermosa,"328,000","279,814",85%,"Ductos / Auto tanque"
+"Región Sur-Sureste",Xalapa,"44,999","34,828",77%,"Auto tanque"
+"Región Centro",Añil,"239,978","158,343",66%,Ducto
+"Región Centro",Azcapotzalco,"1,510,000","1,288,780",85%,Ducto
+"Región Centro","Barranca del Muerto","125,000","99,519",80%,Ducto
+"Región Centro",Cuautla,"60,000","51,229",85%,"Auto tanque"
+"Región Centro",Cuernavaca,"135,000","117,562",87%,Ducto
+"Región Centro",Pachuca,"170,000","145,871",86%,Ducto
+"Región Centro",Puebla,"424,965","346,100",81%,Ducto
+"Región Centro","San Juan Ixhuatepec","225,007","171,135",76%,Ducto
+"Región Centro",Tehuacán,"45,503","39,624",87%,"Auto tanque"
+"Región Centro",Toluca,"195,000","162,865",84%,Ducto
+"Región Noreste",Cadereyta,"99,990","87,452",87%,"Refineria / Ducto"
+"Región Noreste",Chihuahua,"420,000","374,213",89%,Ducto
+"Región Noreste","Ciudad Mante","29,458","16,201",55%,"Auto tanque"
+"Región Noreste","Ciudad Victoria","195,527","163,243",83%,Ducto
+"Región Noreste",Durango,"75,000","63,006",84%,"Carro tanque"
+"Región Noreste",Monclova,"237,371","208,282",88%,Ducto
+"Región Noreste","Nuevo Laredo","74,973","67,101",90%,"Auto tanque"
+"Región Noreste",Parral,"50,000","42,705",85%,"Auto tanque"
+"Región Noreste",Reynosa,"24,000","18,153",76%,"Ducto / Auto tanque"
+"Región Noreste",Sabinas,"99,999","84,371",84%,Ducto
+"Región Noreste",Saltillo,"149,995","135,178",90%,Ducto
+"Región Noreste","Santa Catarina","850,000","689,909",81%,Ducto
+"Región Noroeste",Ensenada,"135,000","118,236",88%,Ducto
+"Región Noroeste",Guamuchil,"105,000","89,671",85%,Ducto
+"Región Noroeste",Guaymas,"799,991","665,319",83%,"Buque tanque"
+"Región Noroeste",Hermosillo,"175,000","101,708",58%,Ducto
+"Región Noroeste","La Paz","230,000","194,667",85%,"Buque tanque"
+"Región Noroeste",Mazatlan,"820,000","721,795",88%,"Buque tanque"
+"Región Noroeste",Mexicali,"155,000","137,671",89%,Ducto
+"Región Noroeste",Navojoa,"35,000","29,752",85%,"Auto tanque"
+"Región Noroeste",Nogales,"45,000","39,858",89%,"Auto tanque"
+"Región Noroeste",Rosarito,"1,423,000","1,201,835",84%,"Buque tanque"
+"Región Noroeste",Topolobampo,"750,000","626,764",84%,"Buque tanque"
+"Región Sur-Sureste",Iguala,"60,000","49,539",83%,"Auto tanque"
+"Región Sur-Sureste",Minatitlán,"10,000","7,403",74%,Refineria
+"Región Sur-Sureste","Tuxtla Gutiérrez","104,464","89,987",86%,"Auto tanque"
+"Región Centro-Occidente",Aguascalientes,"105,000","82,669",79%,Ducto
+"Región Centro-Occidente",Celaya,"179,802","152,514",85%,Ducto
+"Región Centro-Occidente","Ciudad Valles","75,911","63,196",83%,"Carro tanque"
+"Región Centro-Occidente",Manzanillo,"465,000","380,144",82%,"Buque tanque"
+"Región Centro-Occidente",Colima,"60,000","54,322",91%,"Auto tanque"
+"Región Centro-Occidente","El Castillo","345,642","277,189",80%,Ducto
+"Región Centro-Occidente",Irapuato,"435,000","373,068",86%,Ducto
+"Región Centro-Occidente","Lázaro Cárdenas","729,942","635,660",87%,"Buque tanque"
+"Región Centro-Occidente",León,"110,000","92,023",84%,Ducto
+"Región Centro-Occidente",Matehuala,"32,994","28,853",87%,"Auto tanque"
+"Región Centro-Occidente",Morelia,"135,000","112,803",84%,Ducto
+"Región Centro-Occidente",Querétaro,"230,000","195,957",85%,Ducto
+"Región Centro-Occidente","San Luis Potosí","100,000","82,680",83%,Ducto
+"Región Centro-Occidente",Tepic,"125,000","106,188",85%,"Auto tanque"
+"Región Centro-Occidente",Uruapan,"129,988","115,851",89%,"Auto tanque"
+"Región Centro-Occidente",Zacatecas,"85,000","67,106",79%,Ducto
+"Región Centro-Occidente",Zamora,"90,000","75,041",83%,Ducto
+"Región Centro-Occidente",Zapopan,"390,125","331,691",85%,Ducto
+"Región Noreste","Ciudad Juárez","244,967","208,284",85%,"Ducto/Auto tanque"
+"Región Noreste","Gómez Palacio","474,962","411,425",87%,Ducto
+"Región Noroeste","Ciudad Obregón","170,000","140,150",82%,Ducto
+"Región Noroeste",Culiacán,"115,000","99,736",87%,Ducto
+"Región Noroeste",Magdalena,"40,000","31,581",79%,"Auto tanque"

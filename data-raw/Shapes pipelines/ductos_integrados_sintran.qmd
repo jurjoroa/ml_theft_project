@@ -1,0 +1,135 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.26.3-Buenos Aires">
+  <identifier>Ductos Integrados a SISTRANGAS</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>Ductos Integrados a SISTRANGAS</title>
+  <abstract>1. Identificación del conjunto de datos espaciales o producto  
+1.1 Título del conjunto de datos espaciales o producto  
+Ductos integrados a SISTRANGAS
+1.2 Propósito  
+El SISTRANGAS se compone por un conjunto de sistemas de transporte de gas natural interconectados entre sí e integrados para efectos tarifarios, de entre los que el Sistema Nacional de Gasoductos, propiedad de CENAGAS, funge como sistema central, teniendo integrados seis sistemas periféricos, lo que otorga diversos beneficios técnicos y económicos tales como redundancia, eficiencia operativa, garantía en el suministro y tarifas de transporte de gas competitivas.
+1.3 Descripción del conjunto de datos espaciales o producto  
+Esta capa muestra de manera aproximada la ruta y tramos que abarcan los gasoductos integrados al Sistema de Transporte y Almacenamiento Nacional Integrado de Gas Natural (SISTRANGAS), construidos o en proyecto de construcción hasta enero 2018. Se realizó de manera manual a partir de la información contenida en el Plan Quinquenal de Gasoductos 2015-2019 (disponible en: http://www.cenagas.gob.mx/plan_quinquenal.html) y el Mapa de Infraestructura Nacional de Gas Natural 2020 (disponible en: https://www.gob.mx/cms/uploads/attachment/file/613809/Prontuario_enero_2021__accesibilidad__Lul_.pdfLos tramos, puntos de partida y llegada, capacidad e inversión están sujetos a revisión.
+1.4 Idioma del conjunto de datos espaciales o producto  
+ES – Español
+1.5 Categoría del tema del conjunto de datos espaciales o producto  
+1.5.1 Tema principal
+4. Economía
+11. Localización
+14. Estructura
+16. Comunicación de servicios
+1.5.2 Grupo de datos del conjunto de datos espaciales
+3. Grupo de datos catastrales
+1.6 Palabra clave  
+Gas, transporte, gasoducto, infraestructura, distribución, permiso, SISTRANGAS, sistema nacional de gasoductos, CENAGAS.
+1.10 Forma de presentación de los datos espaciales  
+5. Mapa Digital
+1.11 Enlace en línea  
+1.11.1 URL del recurso
+https://mapa.hidrocarburos.gob.mx/?lng=es_MX&amp;v=eyJ2aXNpYmxlTGF5ZXJzIjpbImlmcl9nYXNfZHRzX2ludGVncmFkb3MiXSwidmlld0V4dGVudCI6eyJzcGF0aWFsUmVmZXJlbmNlIjp7IndraWQiOjEwMjEwMH0sInhtaW4iOi0xNzY5Njk2NC4wNzIzOTcwNSwieW1pbiI6LTU4MzU3NC43OTIxMTc1MDA3LCJ4bWF4IjotNDM1MTY3MC40MzAwMzUxMDYsInltYXgiOjU0NDMzMzIuMDE0MTEwNDc0fSwiZXhwYW5kZWRXaWRnZXRzIjpbeyJpZCI6InRvZ2dsZUV4cGFuZFRPQyIsImV4cGFuZGVkIjp0cnVlLCJ2aXNpYmxlIjp0cnVlfSx7ImlkIjoidG9nZ2xlRXhwYW5kQmFzZU1hcCIsImV4cGFuZGVkIjpmYWxzZSwidmlzaWJsZSI6dHJ1ZX0seyJpZCI6InRvZ2dsZUV4cGFuZExlZ2VuZCIsImV4cGFuZGVkIjpmYWxzZSwidmlzaWJsZSI6dHJ1ZX1dfQ%3D%3D
+1.12 Frecuencia de mantenimiento y actualización  
+9. No programado
+1.13 Conjunto de caracteres  
+4. UTF8
+1.15 Uso específico  
+La Ley de Hidrocarburos establece en el Art. 32 que pertenece a la Nación la información geológica, geofísica, petrofísica, petroquímica y, en general, la que se obtenga o se haya obtenido de las actividades de Reconocimiento y Exploración Superficial, así como de Exploración y Extracción, llevadas a cabo por parte de Petróleos Mexicanos, cualquier otra empresa productiva del Estado o por cualquier persona y corresponde a la CNH el acopio, resguardo, uso, administración y actualización, así como la publicación de la información referida en el presente artículo, por medio del Centro Nacional de Información de Hidrocarburos.
+2. Fechas relacionadas con el conjunto de datos espaciales o producto  
+2.1 Fechas y eventos  
+2.1.1 Fecha de referencia del conjunto de datos espaciales o productos  
+2021-07-29
+2.1.2 Tipo de Fecha
+3. Revisión
+2.2 Fechas de los insumos tomados para la elaboración del producto o conjunto de datos espaciales
+2.2.1 Fecha de creación de los insumos
+2018-01-10
+2.2.4 Nombre del insumo
+Elaboración propia
+3. Unidad del estado responsable del conjunto de datos espaciales o producto  
+3.12 Enlace en línea (dirección de Internet de referencia)  
+https://mapa.hidrocarburos.gob.mx/
+3.13 Rol
+10. Editor
+4. Localización geográfica del conjunto de datos espaciales o producto  
+4.1 Localización geográfica del conjunto de datos espaciales o producto  
+4.1.1 Coordenada límite al Oeste  
+-111.098978
+4.1.2 Coordenada límite al Este  
+-92.485961
+4.1.3 Coordenada límite al Sur  
+16.166300
+4.1.4 Coordenada límite al Norte  
+31.734471
+4.2 Tipo de representación espacial  
+1. Vector
+6. Calidad de la Información
+6.1 Alcance o ámbito
+6.1.1 Nivel
+10. Tipo de objeto espacial
+6.3 Linaje
+De acuerdo con el Art. 43 de la Ley de Hidrocarburos, corresponde a la Comisión Nacional de Hidrocarburos: I. Emitir la regulación y supervisar su cumplimiento por parte de los Asignatarios, Contratistas y Autorizados en las materias de su competencia y, específicamente, en las siguientes actividades: a) Reconocimiento y Exploración Superficial, incluyendo los criterios de confidencialidad y el derecho al aprovechamiento comercial de la información que se obtenga derivada de las mismas; b) El acopio, resguardo, uso, administración y actualización, así como, en su caso, la publicación de la información referida en el artículo 32 de esta Ley, por medio del Centro Nacional de Información de Hidrocarburos;  c) Exploración y Extracción de Hidrocarburos, incluyendo la elaboración de los respectivos planes para el dictamen a que se refiere el artículo 44 de esta Ley, así como el abandono y desmantelamiento; d) La Recolección de Hidrocarburos;  e) La perforación de pozos;  f) La cuantificación de Reservas y los Recursos Prospectivos y Contingentes;  g) La certificación de Reservas de la Nación por parte de terceros independientes, así como el proceso de selección de los mismos; h) La medición de la producción de Hidrocarburos, considerando, al menos, la instalación y verificación de los sistemas de medición de acuerdo con estándares internacionales y que los mismos sean auditables por terceros con reconocida experiencia internacional;  i) El aprovechamiento del Gas Natural asociado;  j) Los estándares técnicos y operativos para maximizar el factor de recuperación de Hidrocarburos, y  k) Los requerimientos de información a los sujetos obligados, así como los lineamientos de transferencia, recepción, uso y publicación de la información recibida.
+8. Distribución
+8.3 Responsabilidad de distribución
+La presente capa es para fines informativos, está sujeta a revisiones y no debe tomarse como definitiva, la información es propiedad de la Nación y su acopio, resguardo, uso, administración y actualización, así como la publicación de esta corresponde a la Comisión Nacional de Hidrocarburos. En consecuencia, el contenido de estos datos no puede ser editado y/o comercializado, total o parcialmente sin previa autorización de la CNH, el uso de esta información es responsabilidad del usuario.
+8.4 Formato de distribución 
+8.4.1 Nombre del formato 
+Archivo vectorial con extensión .shp
+9. Información de metadatos  
+9.1 Nombre del estándar de metadatos   
+ISO 19115 Información Geográfica - Metadatos (Norma Técnica para Metadatos)
+9.3 Idioma de los Metadatos  
+ES – Español 
+9.4 Punto de contacto para los Metadatos  
+Centro Nacional de Información de Hidrocarburos
+9.4.4 Teléfono 
+Tel: (55)4774-6500
+9.4.6 Dirección 
+Av. Patriotismo 580, Colonia Nonoalco
+9.4.7 Ciudad 
+Ciudad de México
+9.4.8 Área administrativa 
+Delegación Benito Juárez
+9.4.9 Código postal 
+03700
+9.4.10 País 
+México
+9.4.11 Dirección de correo electrónico del contacto 
+estadistica@cnh.gob.mx
+9.5 Fecha de metadatos
+2020-05-16
+9.6 Conjunto de caracteres
+4. UTF-8 
+
+El SISTRANGAS se compone por un conjunto de sistemas de transporte de gas natural interconectados entre sí e integrados para efectos tarifarios, de entre los que el Sistema Nacional de Gasoductos, propiedad de CENAGAS, funge como sistema central, teniendo integrados seis sistemas periféricos, lo que otorga diversos beneficios técnicos y económicos tales como redundancia, eficiencia operativa, garantía en el suministro y tarifas de transporte de gas competitivas. </abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>Gas</keyword>
+    <keyword>transporte</keyword>
+    <keyword>gasoducto</keyword>
+    <keyword>infraestructura</keyword>
+    <keyword>distribución</keyword>
+    <keyword>permiso</keyword>
+    <keyword>sistrangas</keyword>
+    <keyword>sistema nacional de gasoductos</keyword>
+    <keyword>cenagas.</keyword>
+  </keywords>
+  <links/>
+  <fees></fees>
+  <constraints type="Limitaciones de uso">La presente capa es para fines informativos, está sujeta a revisiones y no debe tomarse como definitiva, la información es propiedad de la Nación y su acopio, resguardo, uso, administración y actualización, así como la publicación de esta corresponde a la Comisión Nacional de Hidrocarburos. En consecuencia, el contenido de estos datos no puede ser editado y/o comercializado, total o parcialmente sin previa autorización de la CNH, el uso de esta información es responsabilidad del usuario. </constraints>
+  <rights>Comisión Nacional de Hidrocarburos (CNH) con información de la Secretaría de Energía (SENER), del Centro Nacional de Control de Gas Natural (CENAGAS) y Pemex Gas y Petroquímica Básica.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent/>
+</qgis>

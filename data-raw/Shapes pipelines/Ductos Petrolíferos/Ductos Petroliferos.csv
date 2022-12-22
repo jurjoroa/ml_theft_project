@@ -1,0 +1,82 @@
+﻿REGIóN,DUCTO,SERVICIO,LONGITUD,"CAPACIDAD NOMINAL (B)","CAPACIDAD OPERATIVA (B)"
+Noroeste,"Poliducto Rosarito-Mexicali",Poliducto,148.4,31000,30000
+Noroeste,"Poliducto Rosarito-Ensenada",Poliducto,74.8,20000,20000
+Noroeste,"Poliducto Guaymas-Hermosillo",Poliducto,129,31000,30000
+Noroeste,"Poliducto Guaymas-Cd. Obregón",Poliducto,120.3,24000,23000
+Noroeste,"Poliducto Topolobampo-Guamúchil-Culiacán",Poliducto,222.3,34000,34000
+Noroeste,Ramal-Guamuchil,Poliducto,0.4,34000,34000
+Norte,"Bidireccional Cd. Juárez-Chihuahua",Poliducto,349.1,25000,25000
+Noreste,"Combustóleo-ducto Refineria Madero-CFE Altamira",Combustóleo-ducto,29,26000,25000
+Noreste,"Bidireccional Madero-Cadereyta",Poliducto,488.1,54000,54000
+Noreste,"Ramal TAR Victoria",Poliducto,3,26000,26000
+Noreste,"Poliducto Cadereyta-Santa Catarina",Poliducto,83.6,148000,148000
+Norte,"Poliducto El Paso-Cd. Juárez",Poliducto,28.7,31000,31000
+Norte,"Poliducto Frontera-Cd. Juárez",Poliducto,32,45000,0
+Norte,"Poliducto Gómez Palacio-Chihuahua",Poliducto,433.7,17000,17000
+Noreste,"Bidireccional Cadereyta-Reynosa-Brownsville",Poliducto,270.9,55000,4900
+Noreste,"Ramal La Retama-Reynosa",Poliducto,10.6,25000,24000
+Norte,"Bidireccional Gómez Palacio-Chihuahua",Poliducto,433.5,23000,22000
+Noreste,"Poliducto Santa Catarina-Gómez Palacio",Poliducto,321.3,32000,31000
+Noreste,"Poliducto Santa Catarina-Gómez Palacio",Poliducto,319.6,58000,57000
+Noreste,"Ramal Ojo Caliente-Saltillo",Poliducto,24.9,26000,26000
+Noreste,"Poliducto Santa Catarina-Monclova-Sabinas",Poliducto,323.6,20000,19000
+Noreste,"Interconexión Monclova",Poliducto,0,20000,19000
+Centro,"Turbosino-ducto Tula-Azcapotzalco",Turbosino-ducto,75.1,51000,50000
+Centro,"Poliducto Tula-Azcapotzalco",Poliducto,81.8,103000,98000
+Centro,"Ramal San Juan Ixhuatepec",Poliducto,0.7,62000,62000
+Centro,"Poliducto Tula-Toluca",Poliducto,222.7,50000,47000
+Centro,"Poliducto Tula-Pachuca",Poliducto,66.66,24000,24000
+Centro,"Poliducto Azcapotzalco-Barranca del Muerto",Poliducto,20.8,21000,16000
+Centro,"Poliducto Azcapotzalco-Barranca del Muerto",Poliducto,20.7,62000,53000
+Golfo,"Poliducto CPI-México",Poliducto,119,55000,45000
+Centro,"Poliducto Azcapotzalco-San Juan Ixhuatepec",Poliducto,15.1,72000,63000
+Centro,"Ramal San Juan Ixhuatepec-Añil",Poliducto,17,62000,62000
+Centro,"Poliducto Azcapotzalco-Añil",Poliducto,30.9,65000,63000
+Centro,"Poliducto Azcapotzalco-Añil",Poliducto,30.9,29000,29000
+Centro,"Poliducto Añil-Cuernavaca",Poliducto,70,23000,22000
+Centro,"Turbosino-ducto Azcapotzalco ASA",Turbosino-ducto,27.9,29000,28000
+Centro,"Bidireccional Salamanca-Tula",Poliducto,240.1,38000,38000
+Centro,"Ramal Charco Blanco-TAR Querétaro",Poliducto,24.2,153600,77000
+Centro,"Ramal Palo Seco-Celaya",Poliducto,70,23000,22000
+Centro,"Poliducto Querétaro-TAR San Luis Potosí",Poliducto,204.2,24000,24000
+Occidente,"Poliducto Salamanca-Morelia",Poliducto,90.7,28000,27000
+Occidente,"Magna-ducto Salamanca-Irapuato",Magna-ducto,19,34000,34000
+Occidente,"Premium-ducto Salamanca-Irapuato",Premium-ducto,19,31000,24000
+Occidente,"Turbosino-ducto Salamanca-Irapuato",Turbosino-ducto,18.9,29000,28000
+Occidente,"Combustóleo-ducto Salamanca-Irapuato",Combustóleo-ducto,18.9,35000,32000
+Occidente,"Poliducto Salamanca-León",Poliducto,94.3,24000,23000
+Occidente,"Diésel-ducto Salamanca-Irapuato",Diésel-ducto,19,30000,29000
+Occidente,"Poliducto Salamanca-Aguascalientes-Zacatecas",Poliducto,319.9,28000,27000
+Occidente,"Ramal León",Poliducto,0,18000,18000
+Occidente,"Ramal Aguascalientes",Poliducto,0.4,28000,27000
+Occidente,"Poliducto Salamanca-Guadalajara",Poliducto,345,85000,80000
+Occidente,"Ramal TAR El Castillo",Poliducto,0.1,85000,80000
+Occidente,"Ramal Degollado-Zamora",Poliducto,44.5,26000,24000
+Sur,"Combustóleo-ducto Ref. Salina Cruz-TM Salina Cruz L1",Combustóleo-ducto,12.5,96000,87000
+Sur,"Combustóleo-ducto Ref. Salina Cruz-TM Salina Cruz L2",Combustóleo-ducto,12.5,84000,83000
+Golfo,"Bidireccional Minatitlán-Salina Cruz",Poliducto,249.4,73000,73000
+Golfo,"Combustóleo-ducto Ref. Minatitlán-TM Pajaritos",Combustóleo-ducto,33,72000,72000
+Golfo,"Bidireccional Minatitlán-Pajaritos",Poliducto,24.4,41000,41000
+Golfo,"Poliducto Minatitlán-México",Poliducto,596.9,75000,66000
+Golfo,"Poliducto Minatitlán-Pajaritos",Poliducto,27.5,73000,73000
+Centro,"Poliducto Tula-Salamanca",Poliducto,226.1,87000,87000
+Golfo,"Poliducto Minatitlán-Puebla",Poliducto,438.3,75000,66000
+Golfo,"Poliducto CAB Poza Rica-TAR Poza Rica",Poliducto,2.5,24000,23000
+Golfo,"Ramal TAD Tierra Blanca-TAD Veracruz",Poliducto,97.8,28000,14000
+Golfo,"Ramal TED Tierra Blanca-TAD Tierra Blanca",Poliducto,1.4,35000,35000
+Golfo,"Ramal Entronque a TA Escamela",Poliducto,0,75000,63000
+Golfo,"Ramal TED Puebla-TAD Puebla",Poliducto,0.4,63000,58000
+Golfo,"Ramal de inyección CPI-Estación San Martín",Poliducto,0.4,55000,45000
+Golfo,"Poliducto Tuxpan-Poza Rica-Azcapotzalco",Poliducto,314.6,173000,173000
+Golfo,"Poliducto Tuxpan-Poza Rica",Poliducto,69.4,24000,23000
+Golfo,"Poliducto Tuxpan-Poza Rica-Tula",Poliducto,304.2,82000,81000
+Golfo,"Poliducto Minatitlán-Villahermosa",Poliducto,174.2,55000,51000
+Golfo,"Ramal Castañito-Dos Bocas",Poliducto,59.6,55000,51000
+Sur,"Magna-ducto Ref. Salina Cruz-TAR Salina Cruz",Magna-ducto,2.7,50000,42000
+Sur,"Premium-ducto Ref. Salina Cruz-TAR Salina Cruz",Premium-ducto,2.7,50000,42000
+Sur,"Diésel-ducto Ref. Salina Cruz-TAR Salina Cruz",Diésel-ducto,2.7,47000,38000
+Sur,"Turbosino-ducto Ref. Salina Cruz-TAR Salina Cruz",Turbosino-ducto,4,45000,23000
+Sur,"Turbosino-ducto Ref. Salina Cruz-TM Salina Cruz",Turbosino-ducto,10.2,91000,91000
+Sureste,"Poliducto Progreso-Mérida",Poliducto,37.1,36000,36000
+Sureste,"Poliducto Progreso-Mérida",Poliducto,37.2,22000,21000
+Sureste,"Ramal CFE Mérida",Poliducto,0.7,22000,21000

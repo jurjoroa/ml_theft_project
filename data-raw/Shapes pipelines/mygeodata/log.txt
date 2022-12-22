@@ -1,0 +1,29 @@
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 1: Value 'Descripción: <br>Proyecto: <br>Tipo: Gasoductos existentes operados por CENAGAS<br>CAP_MMPCD: <br>INV_MMUSD: <br>DESARROLLA: <br>PROMOTOR: <br>LONGITUD_K: <br>Tramo: <br>PERMISO: G/061/TRA/1999<br>INICIO_OP: <br>ZONA_T: <br>INTEGRADO: <br>NOTA: La longitud y el tramo expresados son estimados, para fines informativos y no corresponden a la ubicación exacta del gasoducto<br>SECTOR_SIS: ' of field descriptio has been truncated to 254 characters.  This warning will not be emitted any more for that layer.
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 1: Value 'Descripción: <br>Proyecto: PROYECTO NOROESTE<br>Tipo: Gasoducto privado<br>CAP_MMPCD: 770<br>INV_MMUSD: N/A<br>DESARROLLA: IENova<br>PROMOTOR: CFE<br>LONGITUD_K: 297<br>Tramo: <br>PERMISO: G/311/TRA/2013<br>INICIO_OP: Diciembre 2015<br>INTEGRADO: No<br>NOTA: La longitud y el tramo expresados son estimados, para fines informativos y no corresponden a la ubicación exacta del gasoducto' of field descriptio has been truncated to 254 characters.  This warning will not be emitted any more for that layer.
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 1: Value 'Descripción: <br>Proyecto: <br>Tipo: Proyecto de nuevos gasoductos<br>CAP_MMPCD: 40<br>INV_MMUSD: 442<br>DESARROLLA: TAG Pipelines Comercial<br>PROMOTOR: <br>LONGITUD_K: 400<br>Tramo: <br>PERMISO: <br>INICIO_OP: 2019<br>INTEGRADO: <br>NOTA: La longitud y el tramo expresados son estimados, para fines informativos y no corresponden a la ubicación exacta del gasoducto.' of field descriptio has been truncated to 254 characters.  This warning will not be emitted any more for that layer.
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 1: Value 'Descripción: <br>Proyecto: <br>Tipo: Proyectos estratégicos en desarrollo<br>CAP_MMPCD: 936<br>INV_MMUSD: 458<br>DESARROLLA: TransCanada<br>PROMOTOR: CFE<br>LONGITUD_K: 288<br>Tramo: Tuxpan - Tula<br>PERMISO: G/19897/TRA/2017<br>INICIO_OP: N/A<br>INTEGRADO: No<br>NOTA: La longitud y el tramo expresados son estimados, para fines informativos y no corresponden a la ubicación exacta del gasoducto' of field descriptio has been truncated to 254 characters.  This warning will not be emitted any more for that layer.
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 6: Normalized/laundered field name: 'description' to 'descriptio'
+Warning 6: Normalized/laundered field name: 'Descripci__n' to 'Descripci_'
+Warning 1: Value 'Descripción: Descripción: <br>Proyecto: <br>Tipo: <br>CAP_MMPCD: 500<br>INV_MMUSD: <br>DESARROLLA: IMG<br>PROMOTOR: <br>LONGITUD_K: <br>Tramo: <br>PERMISO: <br>INICIO_OP: Octubre 2018<br>INTEGRADO: <br>NOTA:<br>Proyecto: <br>Tipo: <br>CAP_MMPCD: 500<br>INV_MMUSD: <br>DESARROLLA: IMG<br>PROMOTOR: <br>LONGITUD_K: <br>Tramo: <br>PERMISO: <br>INICIO_OP: Octubre 2018<br>INTEGRADO: <br>NOTA: ' of field descriptio has been truncated to 254 characters.  This warning will not be emitted any more for that layer.
